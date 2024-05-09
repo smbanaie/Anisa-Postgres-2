@@ -1,5 +1,7 @@
 ### Overview of Database Types
 
+![](Images\types-of-nosql-datastores.png)
+
 - **Relational (NewSQL/Classic):** Relational databases are based on the relational model, where data is stored in tables with predefined relationships between them. NewSQL databases aim to improve upon traditional relational databases, offering better scalability and performance.
 
 - **Document Stores:** These databases store data in flexible, JSON-like documents. MongoDB is a popular example.
@@ -16,7 +18,13 @@
 
 - **Graph DBs:** Designed for handling graph data and relationships, like Neo4j.
 
+- **Vector DBS**
+
+  
+
 ### NoSQL Concepts
+
+![](Images\CAP.jpg)
 
 #### CAP Theorem
 
@@ -44,6 +52,8 @@ Understanding the CAP theorem is crucial for architects and developers working o
 
 ### OLTP and OLAP
 
+![](Images\OLAP-VS-OLTP.png)
+
 #### OLTP (Online Transaction Processing)
 
 - **Overview:** OLTP is a category of database systems that manages and facilitates the processing of transactions in real-time. These transactions are typically high-frequency, short-duration operations that involve inserting, updating, and deleting small amounts of data. OLTP systems are optimized for ensuring data accuracy and supporting concurrent access by multiple users.
@@ -65,6 +75,8 @@ Understanding the CAP theorem is crucial for architects and developers working o
   - **Data Warehousing:** OLAP databases often use a data warehousing approach, storing historical data for trend analysis.
 
   - **Denormalized Data Model:** Data in OLAP databases may be denormalized to improve query performance by reducing the number of joins required.
+  
+    ![](Images\Row_vs_Column_Store.png)
 
 ### PostgreSQL in a Polyglot Software Architecture for OLTP Data
 
@@ -88,7 +100,11 @@ By utilizing PostgreSQL in a polyglot architecture, organizations can leverage i
 
 - **Database/Table/Schema/Keys/Record/Tuple/Index:** Fundamental concepts in relational databases. A database contains tables, which have schemas defining the structure. Tables contain records (rows) with tuples (columns), and indexes optimize data retrieval.
 
+  ![](Images\ACID_DBMS.jpg)
+
 - **ACID:** ACID stands for Atomicity, Consistency, Isolation, and Durability. It ensures reliable processing of database transactions.
+
+
 
 ### Postgres History
 
@@ -144,51 +160,3 @@ By utilizing PostgreSQL in a polyglot architecture, organizations can leverage i
 - **DBeaver:** Universal database management tool supporting PostgreSQL.
 
   
-
-### Postgres Compatible DBS
-
-  PostgreSQL's compatibility and extensibility make it a versatile choice, and several databases are built with compatibility in mind. Here are a few notable examples:
-
-  #### CockroachDB
-
-  - **Overview:** CockroachDB is a distributed SQL database that is highly scalable and resilient. It is designed to be compatible with PostgreSQL, allowing users to leverage existing PostgreSQL skills and tools.
-
-  - **Compatibility Features:**
-    - **SQL Compatibility:** CockroachDB supports the PostgreSQL wire protocol, which means that PostgreSQL clients and tools can interact seamlessly with CockroachDB.
-    
-    - **Extensions:** CockroachDB aims to support a broad range of PostgreSQL extensions, making it easier for users to migrate applications and databases.
-
-  - **Use Cases:** CockroachDB is well-suited for applications that require high availability, strong consistency, and scalability. It is commonly used in scenarios where traditional relational databases might struggle to handle distributed and geographically dispersed data.
-
-  #### Snowflake
-
-  - **Overview:** Snowflake is a cloud-based data warehousing platform that supports SQL queries. While not a direct PostgreSQL-compatible database, Snowflake provides a connector that allows PostgreSQL users to interact with Snowflake.
-
-  - **Compatibility Features:**
-    - **Connector:** Snowflake offers a connector for PostgreSQL, enabling users to seamlessly transfer data between PostgreSQL databases and Snowflake.
-
-    - **Data Sharing:** Snowflake allows data sharing across different Snowflake accounts, including those that originate from PostgreSQL sources.
-
-  - **Use Cases:** Snowflake is popular for its cloud-native architecture, scalability, and the ability to handle large-scale data analytics. It is commonly used for data warehousing and business intelligence applications.
-
-  #### YugabyteDB
-
-  - **Overview:** YugabyteDB is an open-source, distributed SQL database that is designed for global, internet-scale applications. It provides PostgreSQL compatibility as one of its key features.
-
-  - **Compatibility Features:**
-    - **Wire Protocol Compatibility:** YugabyteDB supports the PostgreSQL wire protocol, allowing PostgreSQL clients and tools to communicate seamlessly with YugabyteDB.
-
-    - **Extensions:** YugabyteDB aims to support a wide range of PostgreSQL extensions, making it easier for users to migrate their PostgreSQL-based applications.
-
-  - **Use Cases:** YugabyteDB is suitable for scenarios where high availability, fault tolerance, and scalability are crucial. It is often used in applications that require strong consistency across globally distributed data.
-
-  These PostgreSQL-compatible databases provide different strengths and are chosen based on specific requirements such as scalability, cloud-native architecture, or global distribution of data. When considering alternatives, it's essential to evaluate the specific features and capabilities that align with the needs of the application or system.
-
-### Real World Considerations
-
-- **Only Transactional Parts:** Consider using PostgreSQL for specific transactional parts of a system where its strengths are most beneficial.
-
-- **Use a Polyglot Architecture:** Suggest employing multiple database technologies based on specific use cases.
-
-- **Use CDC (Change Data Capture) when U need Real Data Transfer:** Highlight the importance of Change Data Capture for real-time data synchronization.
-
