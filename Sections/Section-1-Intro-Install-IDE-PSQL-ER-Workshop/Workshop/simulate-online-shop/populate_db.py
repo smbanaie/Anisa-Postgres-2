@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 # Replace these values with your database connection details
 db_connection_params = {
     'host': 'localhost',
-    'dbname': 'Webinar',
+    'dbname': 'sales',
     'user': 'postgres',
     'password': 'postgres123',
     'port': 5434

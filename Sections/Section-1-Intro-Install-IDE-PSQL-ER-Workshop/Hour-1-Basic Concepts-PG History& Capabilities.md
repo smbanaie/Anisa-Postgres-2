@@ -4,13 +4,13 @@
 
 - **Relational (NewSQL/Classic):** Relational databases are based on the relational model, where data is stored in tables with predefined relationships between them. NewSQL databases aim to improve upon traditional relational databases, offering better scalability and performance.
 
-- **Document Stores:** These databases store data in flexible, JSON-like documents. MongoDB is a popular example.
+- **Document Stores:** These databases store data in flexible, JSON-like documents. MongoDB is a popular example. 
 
 - **(Text) Search Engines:** Specialized databases designed for efficient text searching, like Elasticsearch.
 
 - **Wide Row (Column Family):** Examples include Apache Cassandra, where data is stored in columns rather than rows.
 
-- **Time Series:** Designed for handling time-series data efficiently. InfluxDB and Prometheus are examples.
+- **Time Series:** Designed for handling time-series data efficiently. QuestDB, InfluxDB and Prometheus are examples.
 
 - **Key/Values:** Simplest form of a database where data is stored as key-value pairs. Redis is a common example.
 
