@@ -7,7 +7,7 @@ import psycopg
 fake = Faker()
 
 # Database connection parameters
-conn_params = "dbname=jobs user=postgres password=postgres123 port=5434"
+conn_params = "dbname=jobs user=postgres password=postgres123 port=5432"
 
 # Function to check if an email already exists
 def email_exists(email, cur):
