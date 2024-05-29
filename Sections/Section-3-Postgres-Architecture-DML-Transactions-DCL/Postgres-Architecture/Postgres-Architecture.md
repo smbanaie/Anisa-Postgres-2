@@ -137,7 +137,7 @@ After running initdb(), checking the pg_tablespace will reveal the creation of b
 
 ![img](.\images\9.ong)
 
-The pg_default tablespace is located at `**$PGDATA\base`**. This directory contains subdirectories for each database OID, representing the physical structure where each database directory exists under its respective tablespace. ***(Refer to Figure 1–4)\***
+The pg_default tablespace is located at `**$PGDATA\base`**. This directory contains subdirectories for each database OID, representing the physical structure where each database directory exists under its respective tablespace. 
 
 ![img](.\images\10.png)
 
