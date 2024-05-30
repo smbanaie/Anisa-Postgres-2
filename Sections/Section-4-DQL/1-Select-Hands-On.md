@@ -13,7 +13,21 @@ some basic select usage
    
    select 'Ali' as "ALI" ;
    
-   select 'ALi' as name, 28 as age;
+   select 'ALi' as name1, 28 as age1
+   union
+   select 'Sara' as name2, 22 as age2;
+   
+   
+   select * 
+   from (
+   select 'ALi' as name, 28 as age
+   union
+   select 'Sara' as name2, 22 as age2
+   ), 
+   (
+   select 'Tehran' as "city"
+   );
+   
    
    ```
 
@@ -41,14 +55,19 @@ some basic select usage
    This query concatenates the strings 'Hello', a space, and 'World', resulting in the output 'Hello World'.
 
 3. **Mathematical Expression:**
+   
    ```sql
    SELECT 5 * 3;
    
    ?: output?
    SELECT '90' *3;
+   
+   select '90'::int * 3
+   select '90'::text * 3
+   
    ```
    This query performs a simple multiplication operation and returns the result, which is 15.
-
+   
 4. **Current Date:**
 
    ```sql
@@ -57,6 +76,7 @@ some basic select usage
    Returns the current date.
 
 5. **Current Time:**
+   
    ```sql
    SELECT current_time;
    
@@ -68,7 +88,7 @@ some basic select usage
    
    ```
    Returns the current time.
-
+   
 6. **String Length:**
    ```sql
    SELECT length('Database');
@@ -76,11 +96,23 @@ some basic select usage
    Computes the length of the string 'Database' and returns the result.
 
 7. **Random Number:**
+   
    ```sql
    SELECT random();
+   
+   
+   select *
+   from products p 
+   order by random()
+   limit 10 
+   ; 
+   
+   
+   
+   
    ```
    Generates a random value between 0 and 1.
-
+   
 8. **Power Function:**
    ```sql
    SELECT power(2, 3);
@@ -200,6 +232,7 @@ Here are 10 more advanced examples of using the `SELECT` statement without the `
     Uses a `CASE` statement to conditionally return a value.
     
 14. **Array Operations:**
+    
     ```sql
     SELECT array[1, 2, 3] || array[4, 5, 6];
     
@@ -211,6 +244,26 @@ Here are 10 more advanced examples of using the `SELECT` statement without the `
     
     SELECT 4 != ALL (array[4, 5, 6]);
     
+    
+    create table t (
+    	id serial primary key , 
+    	child_ages int[] 
+    )
+    
+    
+    insert into t(child_ages)
+    values (array[6,15,17]),
+    		(array[1,6])
+    ;
+    
+    select *
+    from t
+    where 17 <= any (child_ages)  ;
+    
+    
+    insert into t(child_ages)
+    SELECT ARRAY(SELECT generate_series(5, 15, 3))
+    ;
     ```
     Concatenates two arrays, resulting in a new array.
     

@@ -9,7 +9,7 @@ First we need to create the database
   ```bash
   $ psql -h localhost -p 5432 -U postgres -c "CREATE DATABASE northwind;"
   $ cd "E:\Anisa\Sample DBs"
-  $ psql -d postgres -U postgres -d northwind -f northwind.sql
+  $ psql -U postgres -d northwind -f northwind.sql
   $ psql -d postgres -U postgres -d northwind
   $ postgres=# \dt
   ```

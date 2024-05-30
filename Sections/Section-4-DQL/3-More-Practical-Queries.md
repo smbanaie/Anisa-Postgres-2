@@ -3,10 +3,12 @@
 These queries include some more complex operations like `GROUP BY` and `CASE WHEN`.
 
 11. **Average Price by Category**
+    
     ```sql
-    SELECT category_id, AVG(unit_price) AS average_price FROM products GROUP BY category_id;
+    SELECT category_id, AVG(unit_price) AS average_price FROM 
+    products GROUP BY category_id;
     ```
-
+    
 12. **Count Customers by Country**
     ```sql
     SELECT country, COUNT(*) AS customer_count FROM customers GROUP BY country;
