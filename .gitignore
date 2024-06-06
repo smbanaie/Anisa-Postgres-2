@@ -1,6 +1,5 @@
 *.pptx
 Downloads/
-Slides/
 db_data/
 pgadmin_data/
 .venv/
