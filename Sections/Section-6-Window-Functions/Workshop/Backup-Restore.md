@@ -87,7 +87,8 @@ pg_dumpall -U postgres  -f alldb.sql --schema-only -w
 - run another postgres instance using docker file provided on port:5434
 
 ```bash
-psql -U postgres -p 5434 -f .\alldb.sql
+psql -U postgres -p 5434 -d postgres -c "create database north2;"
+psql -U postgres -p 5434 -d north2 -f .\alldb.sql
 ```
 
 
