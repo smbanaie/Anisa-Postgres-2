@@ -1,0 +1,159 @@
+version: '3.3'
+
+services:
+  postgres-main:
+    image: postgres:16
+    container_name: "postgres-main"
+    hostname: "postgres-main"
+    ports:
+      - "5434:5432"
+    env_file:
+      - .env
+    volumes:
+      # - ./db_data:/var/lib/postgresql/data
+#      - ./data/postgres_main/logs:/var/log/postgresql
+      - ./database/postgres_tables.sql:/docker-entrypoint-initdb.d/postgres_tables.sql
+    command: ['postgres', '-c', 'wal_level=logical']
+    healthcheck:
+      test: ['CMD', 'psql', '-U', 'postgres', '-c', 'SELECT 1']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - services
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.5.0
+    hostname: zookeeper
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_SERVER_ID: 1
+      ZOOKEEPER_SERVERS: zookeeper:2888:3888
+    healthcheck:
+      test: echo srvr | nc zookeeper 2181 || exit 1
+      start_period: 10s
+      retries: 20
+      interval: 10s
+    networks:
+      - services
+
+
+  kafka-broker:
+    image: confluentinc/cp-kafka:7.5.0
+    hostname: kafka-broker
+    container_name: kafka-broker
+    ports:
+      - "9092:9092"
+      - "29092:29092"
+      - "9999:9999"
+    environment:
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka-broker:19092,EXTERNAL://${DOCKER_HOST_IP:-127.0.0.1}:9092,DOCKER://host.docker.internal:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT,DOCKER:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      KAFKA_ZOOKEEPER_CONNECT: "zookeeper:2181"
+      KAFKA_BROKER_ID: 1
+      KAFKA_LOG4J_LOGGERS: "kafka.controller=INFO,kafka.producer.async.DefaultEventHandler=INFO,state.change.logger=INFO"
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_JMX_PORT: 9999
+      KAFKA_JMX_HOSTNAME: ${DOCKER_HOST_IP:-127.0.0.1}
+      KAFKA_AUTHORIZER_CLASS_NAME: kafka.security.authorizer.AclAuthorizer
+      KAFKA_ALLOW_EVERYONE_IF_NO_ACL_FOUND: "true"
+    healthcheck:
+      test: nc -z localhost 9092 || exit -1
+      start_period: 15s
+      interval: 5s
+      timeout: 10s
+      retries: 10
+    depends_on:
+      - zookeeper
+    networks:
+      - services
+    # volumes:
+    #   - kafka-volume:/var/lib/kafka/data
+
+  kafka-ui:
+    container_name: kafka-ui
+    image: provectuslabs/kafka-ui:latest
+    depends_on:
+      kafka-broker:
+        condition: service_healthy
+    networks:
+      - services
+    ports:
+      - "8095:8080"
+    environment:
+      KAFKA_CLUSTERS_0_NAME: local
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka-broker:19092
+
+  debezium:
+    image: debezium/connect:latest
+    container_name: debezium
+    hostname: debezium
+    depends_on:
+      postgres-main:
+        condition: service_healthy
+      kafka-broker:
+        condition: service_healthy
+      zookeeper:
+        condition: service_healthy
+    ports:
+      - '8083:8083'
+    environment:
+      BOOTSTRAP_SERVERS: kafka-broker:19092
+      CONNECT_REST_ADVERTISED_HOST_NAME: debezium
+      GROUP_ID: 1
+      CONFIG_STORAGE_TOPIC: connect_configs
+      STATUS_STORAGE_TOPIC: connect_statuses
+      OFFSET_STORAGE_TOPIC: connect_offsets
+      KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      ENABLE_DEBEZIUM_SCRIPTING: 'true'
+    healthcheck:
+      test:
+        [ 'CMD', 'curl', '--silent', '--fail', '-X', 'GET', 'http://debezium:8083/connectors' ]
+      start_period: 10s
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - services
+
+  debezium-ui:
+    image: debezium/debezium-ui:latest
+    container_name: debezium-ui
+    hostname: debezium-ui
+    depends_on:
+      debezium:
+        condition: service_healthy
+    ports:
+      - '8085:8080'
+    environment:
+      KAFKA_CONNECT_URIS: http://debezium:8083
+    networks:
+      - services
+
+  # debezium-connector-init:
+  #   image: debezium-connector-init
+  #   build:
+  #     context: ./docker/debezium
+  #     dockerfile: Dockerfile
+  #   container_name: debezium-connector-init
+  #   depends_on:
+  #     debezium:
+  #       condition: service_healthy
+  #   networks:
+  #     - services
+
+volumes:
+  kafka-volume:
+  postgres-main-volume:
+
+networks:
+  services:
+    name: service_network

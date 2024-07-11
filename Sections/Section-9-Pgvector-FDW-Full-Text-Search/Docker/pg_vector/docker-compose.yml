@@ -1,0 +1,27 @@
+version: '3.4'
+services:
+  postgres:
+    container_name: postgres
+    hostname: postgres
+    image: pgvector/pgvector:pg16
+    volumes:
+      - ./${DATA_FOLDER:-db_data}:/var/lib/postgresql/data
+      - ./postgres-init:/docker-entrypoint-initdb.d  # Mounting the init script
+      - ./backup:/backup
+      - ./archive:/archive
+      # - ./tblspace:/tblspace
+    environment:
+      - POSTGRES_PASSWORD=${DB_PASS:-postgres123}
+      - POSTGRES_USER=${DB_USER:-postgres}
+      - POSTGRES_DB=${DB_NAME:-dblab}
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    networks:
+      - services
+    restart: on-failure:10
+    ports:
+      - ${PORT:-5434}:5432
+ 
+  
+networks: 
+  services:
+    name: ${APP_NAME:-anisa}_network

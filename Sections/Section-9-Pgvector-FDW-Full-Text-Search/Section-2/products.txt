@@ -1,0 +1,772 @@
+{
+  "hits": [
+    {
+      "_source": {
+        "product_id": "8206493024540",
+        "product": "Voyager 100Mg Cbd Lavender & Frankincense Bath Block   100G",
+        "seo_desc": "Indulge in the ultimate relaxation with Voyager's 100Mg Cbd Lavender & Frankincense Bath Block, a premium vegan aromatherapy soak designed to melt away stress and muscle tension. Crafted in the heart of Perth, Scotland, this luxurious bath block combines 100mg of high-quality CBD with the calming scents of lavender and frankincense, creating a serene wellness experience in your own tub. Perfect for those seeking a THC-free, gluten-free, and cruelty-free option, this product promises a moisturizing and stress-reducing CBD bath that supports well-being and relaxation. The natural ingredients, including Epsom salts and shea butter, work synergistically to nourish the skin while easing the mind. As the CBD market evolves, anticipate a surge in demand for eco-conscious and health-promoting bath products like this one, making it a must-have for the discerning consumer looking to unwind and rejuvenate.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8593464262940",
+        "product": "Nebula Fuzion Dry Herb Vapourizer",
+        "seo_desc": "Discover the ultimate vaping convenience with the Nebula Fuzion Dry Herb Vaporizer, your perfect companion for discreet herb vaping. This sleek, pocket-sized device offers precision temperature control, allowing you to tailor your vaping experience from a mild 100\u00b0C (212\u00b0F) to a robust 230\u00b0C (446\u00b0F). With a rapid 30-second heat-up time, the Nebula Fuzion ensures you're ready to enjoy your session without delay. Its long-lasting battery life supports up to 10 sessions per charge, making it ideal for on-the-go use. The magnetic food-grade mouthpiece and easy-to-read LCD screen enhance the user experience, while USB charging adds convenience to your daily routine. Ideal for those who value portability and control, the Nebula Fuzion is a top choice for portable dry herb vape enthusiasts. Embrace the future of vaping with this innovative device that's set to become a trending staple in the CBD and vaping community.",
+        "category": "Vaporisers"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206452883740",
+        "product": "Nectar Pollinators 510 Atomizers   Pack Of 2",
+        "seo_desc": "Discover the pinnacle of vaping with Nectar Pollinators 510 Atomizers, the ultimate choice for CBD enthusiasts and thick oil aficionados. These premium, leak-free vape cartridges offer a robust 2ml capacity and are designed to be refillable up to five times, ensuring a long-lasting and cost-effective vaping journey. Crafted with high-quality, BPA-free materials, including a sleek ceramic mouthpiece, these atomizers promise a pure and toxin-free inhalation experience. The innovative isolated airflow system guarantees that each draw is free from electrical interference, delivering unadulterated flavor and potency. With universal 510 thread compatibility, these atomizers seamlessly integrate with your favorite magnetic and threaded vaporizer batteries. Embrace the ease of flavor swapping and the convenience of a clear content level indicator. Nectar Pollinators 510 Atomizers are the smart choice for discerning vapers seeking a reliable, health-conscious, and flavorful experience. Elevate your CBD and thick oil vaping today with Nectar's state-of-the-art atomizers.",
+        "category": "Tanks"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206433812764",
+        "product": "Cannatech 750Mg Terpene Infused Cbd E Liquid 10Ml (70Pg/30Vg)",
+        "seo_desc": "Discover the ultimate vaping journey with Cannatech's 750mg Terpene Infused CBD E Liquid, a premium UK-made product designed for discerning CBD enthusiasts. This broad-spectrum, terpene-infused e-liquid offers a symphony of up to 20 flavors, ensuring a delightful taste with every puff. Crafted with 6% pure CBD isolate, it delivers a smooth throat hit and a modest vapor cloud, perfect for those who value discretion and quality. The 70PG/30VG blend strikes the perfect balance for a consistent experience. Safety is paramount, with childproof caps and tamper-evident seals, while the recyclable packaging appeals to the eco-conscious vaper. Compliant with TPD regulations and containing less than 2% THC, this e-liquid is the ideal choice for a reliable and enjoyable CBD vaping experience. Embrace the future of eco-friendly vaping with Cannatech's CBD E Liquid, where wellness meets sustainability.",
+        "category": "CBD Vape"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206562165020",
+        "product": "Cbd Leafline 50Mg Cbd Collagen Eye Gel 15Ml",
+        "seo_desc": "Discover the rejuvenating power of Cbd Leafline 50Mg Cbd Collagen Eye Gel 15Ml, your ultimate solution for **Hydrating Eye Care** and **Dark Circle Reduction**. This scientifically crafted, **Vegan Collagen Skincare** product is a must-have for anyone seeking to diminish the signs of aging. Infused with high-quality CBD, known for its **Anti-Aging CBD Gel** properties, and marine collagen, it targets **CBD Puffiness Relief** while nourishing the sensitive under-eye area. Embrace the blend of natural ingredients like aloe vera and avocado oil that work synergistically to provide a plump, hydrated look, effectively minimizing fine lines. This UK-made, cruelty-free formula is perfect for those who prioritize ethical beauty choices. Elevate your skincare routine with this potent, antioxidant-rich eye gel and witness a visible transformation in your skin's texture and appearance.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206469497116",
+        "product": "Infused Amphora 20% Cbd Vape Pen Cartridge 0.7Ml",
+        "seo_desc": "Discover the epitome of vaping luxury with the Infused Amphora 20% CBD Vape Pen Cartridge. Specially crafted for those who seek a premium, organic hemp experience, this 7ml cartridge is a perfect addition to your daily wellness routine. With a focus on purity, it's free from nicotine, THC, and harmful additives like PG, VG, and MCT oil, ensuring a clean and safe vaping session. The ceramic coil technology guarantees a smooth draw, while the medical-grade plastic tank and mouthpiece offer durability. Indulge in the therapeutic benefits of terpene-infused relaxation available in four enticing flavors: Peace, Mend, Inspire, and ZZZ. Ideal for individuals aiming to enhance creativity, manage stress, or simply enjoy the natural taste of terpenes, this vape pen is your ticket to a nicotine-free path to wellness. Embrace the future of vaping with this pesticide-free, non-intoxicating CBD solution that's lab-tested for your peace of mind.",
+        "category": "CBD Vape"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206480769308",
+        "product": "Feel Supreme 500Mg Full Spectrum Cbd In Mct Oil   15Ml",
+        "seo_desc": "Discover the holistic benefits of Feel Supreme 500Mg Full Spectrum CBD in MCT Oil, a premium CBD oil crafted in the UK for wellness seekers. Each 15ml bottle delivers a potent 3mg of CO2 extracted CBD per drop, ensuring high strength and purity. Infused with a proprietary blend of terpenes, this CBD oil offers enhanced therapeutic effects, catering to individuals who value natural remedies. The inclusion of MCT oil as a carrier enhances bioavailability, making it a superior choice for efficient CBD absorption. Ideal for both morning and evening use, Feel Supreme's CBD oil is versatile and can be taken with or without food. Whether you're new to CBD or an experienced user, this full spectrum oil is designed to support your well-being journey. Embrace the power of nature with this high-quality, terpene-infused wellness solution.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206549778716",
+        "product": "Supreme Cbd 1000Mg Board Spectrum Cbd Active Heat Balm   50Ml",
+        "seo_desc": "Elevate your post-workout recovery with Supreme CBD's 1000mg Broad Spectrum CBD Active Heat Balm. Specially formulated for gym enthusiasts and athletes, this all-natural, UK-made CBD balm provides targeted relief for muscle and joint tension. Infused with organic hemp extract and essential oils like wintergreen and eucalyptus, it promotes improved blood circulation and a warming sensation to soothe your body after intense physical activity. Convenient for on-the-go application, this third-party lab-tested CBD rub is 100% legal and safe, ensuring top-notch quality without psychoactive effects. Embrace the power of nature with this potent, muscle recovery balm, your perfect gym bag companion for immediate post-workout CBD relief and joint comfort.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206532411676",
+        "product": "Soul Holistics 50Mg Cbd Itch Relief Gel",
+        "seo_desc": "Discover the soothing embrace of Soul Holistics 50Mg Cbd Itch Relief Gel, your go-to solution for combating skin irritation and the harsh effects of UV exposure. Infused with a potent 50mg dose of CBD, this vegan-friendly gel is a powerhouse of natural healing, offering immediate itch relief and fostering skin repair. Rich in antioxidants and brimming with nourishing hemp seed and black seed oils, it's designed to absorb quickly, leaving your skin feeling refreshed and revitalized. Say goodbye to dark circles and redness, and hello to a balanced, soothed complexion. Ideal for all skin types, this cruelty-free formula is your secret weapon against environmental stressors, locking in moisture and protecting with every application. Embrace the future of skincare with this antioxidant CBD gel, a must-have for anyone seeking a natural path to radiant, healthy skin.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206551089436",
+        "product": "Diesel & Kush 900Mg Canna Terp Cbd Diesel Dab Slabs   1G",
+        "seo_desc": "Discover the pinnacle of CBD indulgence with Diesel & Kush's 900Mg Canna Terp Cbd Diesel Dab Slabs. Specially crafted for the discerning cannaseur, this premium 1g broad-spectrum CBD slab is infused with AAAA grade hemp-derived terpenes, delivering a potent and non-intoxicating experience. With its rich OG Kush lineage, you'll savor the pungent, gas-like aroma that's synonymous with quality. Perfect for on-the-go use, these portable CBD slabs ensure you can enjoy a terpene-rich, aromatic CBD experience anytime. With THC content below 2%, it's the ideal choice for those seeking the therapeutic benefits of CBD without the high. Elevate your CBD routine with this authentic and unique product, designed to satisfy the most refined palates. Whether you're transitioning from cannabis or simply seeking a premium hemp extract, Diesel & Kush offers an unmatched experience.",
+        "category": "CBD Shatter"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8800606388508",
+        "product": "Hempura 500mg CBD Broad Spectrum Oil Refined with terpenes - 10ml",
+        "seo_desc": "Discover the essence of purity with Hempura's 500mg CBD Broad Spectrum Oil, a UK-made treasure for those who cherish organic wellness. This terpene-infused CBD oil offers a harmonious blend of nature's finest, delivering a mild flavor profile that's perfect for discerning palates. Crafted from organic hemp and meticulously refined to remove any harsh plant taste, our golden CBD oil is a testament to quality and potency. With each drop, experience the full potential of broad-spectrum CBD, enriched with beneficial terpenes and less than 2% THC, ensuring compliance and peace of mind. Third-party lab testing guarantees the highest standards of safety and efficacy. Ideal for individuals seeking a clean, non-artificial CBD product, Hempura's oil is the epitome of premium hemp wellness. Embrace the subtle sophistication of our mild CBD oil, and join the ranks of those who demand purity and strength in their CBD journey.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206531363100",
+        "product": "Canndid 200Mg Cbd Rose & Green Tea Bags   20 Bags",
+        "seo_desc": "Discover the serene blend of Canndid 200Mg CBD Rose & Green Tea Bags, a perfect fusion of wellness and indulgence. Each tea bag is a treasure trove of relaxation, offering a harmonious mix of antioxidant-rich green tea and the calming properties of CBD. With 10mg of CBD & CBDA per bag and less than 2% THC, this luxurious tea blend caters to health-conscious individuals seeking a tranquil tea experience without the high. The delicate pink rose petals and sugared pineapple add a subtle sweetness, making it an ideal choice for those looking to unwind with a flavorful, herbal beverage. Embrace the benefits of this low THC green tea, a wellness tea experience that's both soothing and rejuvenating. Perfect for green tea enthusiasts and CBD aficionados alike, Canndid's CBD Infused Tea is your ticket to a peaceful moment in every sip.",
+        "category": "CBD Drinks"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8938773872924",
+        "product": "Ultracalm 1.5% CBD Hemp Tea - Cherry Bakewell 40g",
+        "seo_desc": "Introducing Ultracalm 5% CBD Hemp Tea in the delightful Cherry Bakewell flavor. This CBD-infused loose-leaf tea combines the goodness of herbal and fruit teas to promote health, relaxation, and overall well-being. Hand-blended in the UK, this unique holistic remedy is carefully crafted to provide a soothing experience. With a gross weight of 40g and 10g of hemp containing 3% CBD, this tea offers therapeutic benefits that can alleviate various symptoms, boost energy levels, and improve mood. The exquisite blend of delicate green tea leaves with the iconic Cherry Bakewell flavor adds a twist of floral fruitiness to your tea time. Enjoy the refreshing taste while knowing that this product is VAT exempt, so no VAT charges apply. Rest assured, the THC content is less than 2%, ensuring a safe and legal experience. Elevate your tea-drinking experience with Ultracalm 5% CBD Hemp Tea - Cherry Bakewell and indulge in the natural goodness of CBD-infused tea.",
+        "category": "CBD Drinks"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206492631324",
+        "product": "Voyager 100Mg Cbd Hemp & Lettle Soap   100G",
+        "seo_desc": "Discover the pure, skin-loving benefits of Voyager 100mg CBD Hemp & Nettle Soap. This 100g bar is a treasure trove for those seeking a natural CBD skincare solution. Crafted with moisturizing hemp oil and soothing nettle powder, it's the perfect remedy for individuals with dry or sensitive skin conditions like eczema. Our vegan-friendly soap is a fragrance-free cleanser that respects your skin and the environment, boasting 100% natural ingredients and zero THC. Embrace the power of nature with this cruelty-free beauty essential that hydrates and calms without any harsh chemicals. Ideal for eco-conscious consumers, this gluten-free soap aligns with your values and your skin's needs. Experience the gentle touch of Voyager's CBD soap and elevate your daily routine with a product that's as kind to your skin as it is to the planet.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206399799580",
+        "product": "Why So Cbd? 1200Mg Cbd Vegan Capsules   30 Caps",
+        "seo_desc": "Discover the natural wellness journey with our 'Why So Cbd? 1200Mg Cbd Vegan Capsules'. These high-potency capsules are your daily ally in achieving a balanced lifestyle, offering a potent 40mg of pure CBD per capsule for optimal absorption and efficacy. Sourced from premium organic USA hemp, our vegan-friendly CBD capsules are a testament to purity and ethical production, being completely cruelty-free and devoid of artificial ingredients. Lab-tested for safety and potency, these capsules ensure you receive only the highest quality CBD. Ideal for vegans and health-conscious individuals, our capsules support a plant-based regimen without compromising on strength. Embrace the benefits of organic hemp extract with our easy-to-integrate CBD solution, designed for rapid absorption and maximum convenience. Elevate your wellness routine with 'Why So Cbd?' and experience the difference of a clean, potent, and ethical CBD product.",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206496203036",
+        "product": "Voyager 600Mg Cbd Body Butter   250Ml",
+        "seo_desc": "Indulge in the luxurious embrace of Voyager's Citrus and Vanilla CBD Body Butter, a premium skincare delight crafted for the discerning individual. This 100% natural, THC-free body butter is infused with a potent 600mg of CBD, offering a vegan and gluten-free solution to your skin's needs. Each 250ml tin is a treasure trove of hydration, blending shea butter, avocado, coconut, and olive oils to moisturize, soothe, and protect your skin. The uplifting citrus and vanilla aroma provides a sensory pleasure, while the cruelty-free promise ensures ethical indulgence. Ideal for those seeking a natural CBD skincare regimen, this body butter is a beacon of soothing hemp hydration. Embrace the future of skincare with Voyager's THC-Free Body Butter, your go-to for a radiant, nourished complexion.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206499447068",
+        "product": "Plantinum Cbd 1000Mg Cbd Peppermint Oral Drops   30Ml",
+        "seo_desc": "Discover the invigorating experience of Plantinum CBD 1000mg Peppermint Oral Drops, the perfect vegan-friendly supplement for athletes and fitness enthusiasts seeking a THC-free post-workout recovery aid. Infused with the cooling zest of peppermint, these premium CBD drops offer a refreshing taste and are an effortless addition to your daily wellness routine. Each 30ml bottle contains a potent 1000mg dose of high-quality CBD, ensuring consistent and reliable support for your body's needs. Ideal for those on a vegan diet and committed to animal welfare, these oral drops are not tested on animals and are crafted with pure MCT oil and natural peppermint flavoring. Embrace the simplicity of using the included dropper for precise dosage, and enjoy the benefits of a daily CBD supplement that's designed to align with your active lifestyle. With Plantinum CBD, you're not just choosing a product; you're choosing a lifestyle of wellness and vitality.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8864228933916",
+        "product": "CBD Leaf Hulk Cartridge - CBD Atomiser",
+        "seo_desc": "Elevate your wellness routine with the CBD Leaf Hulk Cartridge, a high-capacity CBD atomizer designed for the discerning vaper. This premium ceramic coil cartridge offers a smooth, consistent vapor production, making it an ideal choice for stress relief and muscle recovery. With a 2ML capacity, it provides ample space for your CBD oil, ensuring a long-lasting and satisfying experience. Compatible with CBD Leaf Kits, this atomizer is perfect for those seeking a reliable CBD vaping solution. Whether you're an athlete in need of natural recovery support or someone exploring alternative wellness options, the CBD Leaf Hulk Cartridge is tailored to meet your needs. Embrace the future of vaping with this top-tier CBD product, crafted for effectiveness and convenience. Discover the standard in CBD vaping with this must-have accessory for your wellness journey.",
+        "category": "CBD Vape"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206472937756",
+        "product": "The Ashwagandha Co 67500Mg Clarity Capsules   90 Caps",
+        "seo_desc": "Elevate your mental performance with The Ashwagandha Co. 67500Mg Clarity Capsules, the ultimate Cognitive Enhancement Capsules designed for those seeking a natural edge in memory, focus, and cognition. Our Vegan Brain Boosters are packed with high-quality ingredients like Ashwagandha for Stress-Reducing benefits, Lion's Mane for enhanced neural regeneration, and Ginseng for improved brain function. Experience the synergistic effects of these Focus-Inducing Nootropics, all in a convenient, one-month supply of vegan-friendly capsules. Ideal for professionals, students, and anyone aiming to sharpen their mental acuity, our Memory Improvement Supplement is your daily ally in achieving peak cognitive performance. Embrace the clarity and unleash your potential with our scientifically-formulated blend, tailored to support your brain health and well-being.",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206496694556",
+        "product": "Lvwell Cbd Broad Spectrum 200Mg Cbd Soft Gel Capsules",
+        "seo_desc": "Discover the wellness potential of Lvwell Cbd Broad Spectrum 200Mg Cbd Soft Gel Capsules, your daily companion for a balanced CBD routine. Each easy-to-swallow soft gel capsule delivers 10mg of premium broad-spectrum hemp extract, ensuring a THC-free experience suitable for individuals seeking a non-psychoactive supplement. With 100 capsules per box, you can effortlessly maintain your CBD wellness routine. These gelatin-based softgels are perfect for those who prefer precise dosing and a convenient form of CBD intake. Embrace the benefits of a THC-Free CBD Supplement and integrate it into your daily health support system. Lvwell's CBD Softgels are designed for maximum absorption and are an ideal choice for both beginners and seasoned users. Stay ahead of the curve with these Broad-Spectrum CBD Capsules, a trending choice in the evolving CBD market. Whether you're looking to enhance your wellness routine or seeking a reliable daily CBD dosage, Lvwell's CBD capsules offer purity and potency at an attractive price.",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206492172572",
+        "product": "Voyager 100Mg Cbd Shaving Soap   100Ml",
+        "seo_desc": "Elevate your grooming routine with Voyager's 100mg CBD Shaving Soap, the ultimate choice for a close and smooth shave. Specially formulated for sensitive skin, this vegan shaving essential is enriched with 100mg of nourishing CBD and hemp seed oil, ensuring a non-psychoactive, hydrating experience. Our all-natural, cruelty-free soap creates a rich, moisturizing lather, perfect for those seeking a gentle yet effective shave. Infused with a blend of essential oils, including soothing lavender and refreshing lemongrass, it leaves your skin feeling soft and refreshed. With zero THC, this eco-conscious shaving solution caters to the modern man's needs while supporting a clean, green lifestyle. Shop now for a shaving experience that's kind to your skin and the environment.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206464483612",
+        "product": "Smok Tfv8 Big Baby Eu Extended Replacement Glass",
+        "seo_desc": "Upgrade your vaping setup with the Smok TFV8 Big Baby EU Extended Replacement Glass, the ultimate solution for a durable and leak-proof vaping experience. This TPD compliant accessory is a must-have for vapers seeking a perfect fit and easy installation to maintain their Smok tank's performance. Crafted for longevity, this non-identical replacement part is designed to seamlessly integrate with your Smok TFV8 Big Baby EU Tank, ensuring a protected and enhanced vaping journey. At an affordable price of \u00a35, it's an investment in worry-free vaping. Embrace the future of vaping with this essential upgrade, tailored to meet EU vape regulations and the needs of discerning vapers. Don't miss out on the chance to elevate your vape experience with this top-quality, TPD compliant vaping glass.",
+        "category": "Replacement Glasses"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206588707100",
+        "product": "Herbaleyes 1000Mg Major Spectrum Cbda Cbga Cbg & Cbd Entourage Oil   30Ml",
+        "seo_desc": "Discover the transformative power of Herbaleyes 1000Mg Major Spectrum CBDa CBGa CBG & CBD Entourage Oil. This premium 30ml oil harnesses the 'Entourage Effect' to deliver a full-bodied wellness experience. Specially formulated for individuals seeking natural solutions for anxiety relief, depression therapy, and effective pain management, our oil is a beacon of hope for those navigating mental and physical health challenges. Infused with MCT oil, it's also a potent ally for weight loss and blood sugar regulation. Each drop is a testament to purity and potency, with a cold-pressed extraction method that's FSA approved. Embrace a holistic approach to health with this full spectrum CBD gold standard product, designed to elevate your well-being and keep you balanced. Perfect for anyone looking to integrate the therapeutic benefits of major cannabinoids into their daily routine.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206454587676",
+        "product": "Green Apron 100Mg Cbd Sleep Bath Salts 500G",
+        "seo_desc": "Indulge in the ultimate relaxation with Green Apron's 100Mg Cbd Sleep Bath Salts. This 500g therapeutic blend is your natural solution to unwind after a long day. Infused with a potent combination of Epsom and Himalayan salts, our bath salts offer a muscle soothing experience, promoting skin radiance with over 80 essential minerals. The inclusion of high-quality CBD extract aids in a natural detox bath, setting the stage for a restful night's sleep. Ideal for those seeking a vegan-friendly CBD product, our salts are enriched with soft aromas, providing an aromatherapy experience that calms both body and mind. Whether you're looking to ease tired muscles or simply enjoy a moment of tranquility, our CBD Sleep Aid is the perfect addition to your nightly routine. Experience the therapeutic soak that refreshes and rejuvenates, making it a staple for anyone prioritizing their well-being. Embrace the mind-body refresh that only Green Apron can provide, and transform your bath into a sanctuary of serenity.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8243360694556",
+        "product": "Smok Novo X Replacement Mesh Pods 0.8 Ohm",
+        "seo_desc": "Discover the pinnacle of vaping with the Smok Novo X Replacement Mesh Pods 8 Ohm, tailored for a truly smooth vaping experience. These high-quality vape pods are designed with a single mesh coil, ensuring an unparalleled mesh coil flavor with every puff. The 2ml e-liquid capacity caters to your taste, allowing for a satisfying vape experience without constant refills. Ideal for both DTL and MTL vapers, this convenient pod pack comes with three pods, making maintenance and replacements a breeze. Whether you're a seasoned vaper or new to the scene, these pods offer an optimal vaping experience, compatible with a range of devices and e-liquids. Embrace the future of vaping with these premium pods, and enjoy a seamless transition to a superior vaping journey.",
+        "category": "Coils"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8930568470812",
+        "product": "Reakiro 600mg CBD Full Spectrum Energy Boost Capsules - 60 Caps",
+        "seo_desc": "Reakiro 600mg CBD Full Spectrum Energy Boost Capsules offer a natural, sustained energy release. Our expertly formulated supplement contains 60 soft gel capsules with 10mg of full-spectrum CBD each. An ideal daily addition, this careful combination of CBD and essential nutrients promotes overall well-being and vitality. You'll get an extra boost to get through the day or sustain an active lifestyle - Reakiro 600mg CBD Full Spectrum Energy Boost Capsules make a reliable choice for natural energy support! Lab-tested for safety, purity, and potency, these cruelty-free capsules are free from artificial ingredients. With a THC content of less than 2%, you can enjoy the benefits of full-spectrum CBD without any psychoactive effects. Incorporate CBD into your daily routine and experience the natural energy boost you've been looking for. Try Reakiro 600mg CBD Full Spectrum Energy Boost Capsules today and feel the difference!",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206430535964",
+        "product": "Veritas 6000Mg Cbd Orange Drops   30Ml",
+        "seo_desc": "Discover the power of Veritas 6000mg CBD Orange Drops, your go-to solution for high-potency, full-spectrum CBD oil. Specially crafted for individuals seeking significant relief from anxiety, joint pain, and sleep disturbances, this premium 30ml CBD tincture is infused with a delightful tangerine flavor. Ideal for vegans and those with gluten sensitivities, our THC-free formula ensures a pure experience without psychoactive effects. Each drop is meticulously third-party lab-tested, guaranteeing unmatched quality and purity. Embrace a natural approach to wellness with our easy-to-dose, fast-absorbing CBD oil. Whether you're looking to enhance your daily health routine or seeking targeted relief, Veritas CBD Drops offer a potent, trustworthy, and delicious option. Join the CBD revolution and experience the benefits today.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206474608924",
+        "product": "Cbd By British Cannabis Cbd Antibacterial Hand Sanitiser 10Ml",
+        "seo_desc": "Discover the dual-action power of **CBD By British Cannabis Antibacterial Hand Sanitiser 10Ml**, a premium **CBD Hand Sanitizer** designed to offer **Hygienic Hand Protection** while nourishing your skin. Infused with natural cannabis terpenes, this **Moisturizing Antibacterial Gel** is perfect for those seeking a **THC-Free Hand Cleanse** without compromising on hygiene. With a potent 70% alcohol content, it effectively **Kills 9% Bacteria**, ensuring your hands are safeguarded against germs. The added aloe vera ensures your hands remain soft and moisturized, making it an ideal choice for daily use. This sanitizer is compliant with UK regulations, guaranteeing safety and quality. Embrace the benefits of CBD and maintain cleanliness with this essential **Cannabis Terpene Sanitizer**. Whether you're at home or on the go, keep your hands clean, refreshed, and protected with this top-tier, **Alcohol-Based Sanitizer**.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206521270556",
+        "product": "Green Apron Muscle Recovery Giftset",
+        "seo_desc": "Discover the ultimate relaxation and muscle recovery with the Green Apron Muscle Recovery Giftset. Ideal for athletes and wellness enthusiasts, this luxurious set includes CBD-infused bath salt, exfoliating soap, detoxifying charcoal shampoo, and a terpene-infused candle. Each product is crafted to alleviate muscle soreness, reduce inflammation, and promote a serene self-care experience. The CBD Muscle Recovery Bath Salt combines the therapeutic benefits of Magnesium Sulfate and CBD extract, offering a soothing bath soak that eases tension and enhances relaxation. The Exfoliating CBD Soap and Detoxifying Charcoal Shampoo work in harmony to rejuvenate your skin and hair, leaving you feeling refreshed and revitalized. Complete your pampering session with the Relaxing Terpene Candle, enveloping your senses in a calming aroma. At \u00a38, this giftset is not only a pathway to tranquility but also an exceptional value for those seeking a natural wellness routine. Embrace the healing power of CBD and indulge in a luxurious bath experience with Green Apron's premium collection.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206383218972",
+        "product": "Purple Dank Strain Profile Premium Terpenes   Tangie",
+        "seo_desc": "Discover the essence of nature with our Purple Dank Strain Profile Premium Terpenes Tangie, a top-tier choice for those seeking an **Uplifting Sativa Terpenes** experience. This product is a perfect blend for **Cannabis Cessation Aid**, offering a **Pure Terpene Aromatherapy** journey that soothes the senses and elevates the mind. Ideal for individuals aiming to enhance their creative endeavors, our terpenes act as a **Creative Focus Enhancer**. Each batch is **Triple-Distilled Purity** certified, ensuring you receive only the highest quality, free from PG, VG, PEG, MCT, or Vitamin E Acetate. Embrace the **Tropical Terpene Scent** that promotes a calming, euphoric state, and is manufactured in cGMP facilities, meeting the most stringent safety standards. Our product is thoughtfully packaged in **UV Protected Packaging** to maintain its integrity. Whether you're transitioning away from cannabis or simply seeking a natural aroma therapeutic boost, our terpenes are the ideal choice for a pure and potent experience.",
+        "category": "Terpenes"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8800606748956",
+        "product": "Hempura 500mg CBD Revitalising Cream With Terpenes - 50ml",
+        "seo_desc": "Discover the secret to radiant skin with Hempura's 500mg CBD Revitalising Cream, a terpene-infused skincare marvel designed for all skin types, especially those with sensitive skin. This UK-crafted, fast-absorbing moisturizer delivers the full benefits of broad-spectrum CBD, ensuring deep nourishment and revitalization without the psychoactive effects, as it contains less than 2% THC. Embrace the power of natural ingredients like Theobroma Cacao and essential oils that work in harmony to soothe and rejuvenate your skin. Ideal for daily use, this Hemp Moisturizer is a staple in the natural skincare revolution, offering a THC-Free, gentle solution for maintaining healthy, glowing skin. As the CBD industry evolves, stay ahead with this Terpene-Enriched, Hempura CBD Cream, a product that's not only effective but also aligns with the growing demand for holistic wellness and cannabis beauty.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206509211932",
+        "product": "Orange County Cbd 200Mg Gummy Bears   Grab Bag",
+        "seo_desc": "Discover the delightful taste and wellness benefits of Orange County CBD's 200mg Gummy Bears Grab Bag. Perfect for those seeking a vegan-friendly, THC-free CBD option, these gummy bears are crafted with natural ingredients and free from artificial sweeteners, making them a guilt-free addition to your daily CBD routine. Each gummy delivers a potent 25mg dose of high-quality, USA-made broad-spectrum hemp extract, ensuring you receive all the benefits CBD has to offer without any psychoactive effects. Lab-tested for purity and compliance, these gummy bears are a trustworthy and convenient way to support your overall well-being. Ideal for individuals prioritizing natural wellness solutions, Orange County CBD Gummy Bears are the go-to choice for a delicious, non-intoxicating CBD experience. Embrace the natural flavors and embrace your journey to a balanced lifestyle with these premium CBD gummy bears.",
+        "category": "CBD Food"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206490239260",
+        "product": "Lvwell Cbd 2400Mg Cbd Fizzy Cola Bottle Gummies   120 Pieces",
+        "seo_desc": "Discover the delightful taste and wellness benefits with Lvwell Cbd 2400Mg Fizzy Cola Bottle Gummies. Each jar contains 120 vegan-friendly CBD gummies, offering a natural anxiety support system without any artificial additives. Infused with 20mg of broad-spectrum CBD per gummy, these THC-free cannabidiol treats are perfect for those seeking stress relief edibles that are both effective and enjoyable. The terpene-infused formula enhances the absorption, ensuring you get the most out of your daily CBD dosage. Ideal for individuals with dietary restrictions, these gelatine-free gummies provide a long-lasting CBD jar supply for consistent wellness support. Embrace the power of nature with these psychoactive-free hemp gummies and elevate your health routine effortlessly.",
+        "category": "CBD Food"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206453571868",
+        "product": "Cbd Embrace 1000Mg Full Spectrum Cbd Vape Oil   10Ml",
+        "seo_desc": "Discover the pure essence of cannabidiol with our Cbd Embrace 1000Mg Full Spectrum Cbd Vape Oil. This premium, THC-free vape oil is crafted in the UK, ensuring the highest quality and safety standards. Ideal for those seeking a potent CBD experience without psychoactive effects, our oil is vegan, kosher, and comes with a variety of tantalizing flavors to elevate your vaping journey. Each 10ml bottle is packed with natural terpenes and a full spectrum of cannabinoids, meticulously lab-tested to guarantee purity and potency. Whether you're looking to enhance your well-being or explore the rich tapestry of CBD vape flavors, our oil is the perfect choice for discerning vapers. Embrace the benefits of CBD with every puff, and trust in a product that's free from pesticides and metallics. Join the CBD revolution and indulge in a sensory delight that's as responsible as it is enjoyable.",
+        "category": "CBD Vape"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8593464000796",
+        "product": "Nebula Infusion Chef",
+        "seo_desc": "Discover the art of perfect botanical blends with the Nebula Infusion Chef, your ultimate kitchen companion for easy herbal infusions. This state-of-the-art infuser is designed for enthusiasts seeking precision with customizable infusion settings, allowing for a tailored experience in creating oil, tincture, butter, and more. The Nebula Infusion Chef boasts a premium stainless steel chamber, ensuring your culinary extracts are blended, heated, and stirred to perfection. Whether you're a seasoned chef or a beginner, this device offers precise temperature control to unlock the full potential of your herbal ingredients. Embrace the future of home infusions and elevate your cooking with the innovative Nebula Infusion Chef, the ideal tool for creative culinary extracts. Get ready to transform your kitchen into an infusion wonderland and explore the endless possibilities of botanical flavors.",
+        "category": "Vaporisers"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8648871837980",
+        "product": "Poko Just Pause Supplement Capsules - 60 Caps",
+        "seo_desc": "Discover the natural path to menopause relief with Poko Just Pause Supplement Capsules. Our vegan-friendly formula is crafted with organic ingredients, targeting the unique needs of women navigating peri-menopause and menopause. Experience the benefits of hormone management with our blend of vitamin D, ginseng, and magnesium, designed to alleviate symptoms like hot flashes and vaginal dryness. Enhance your sleep quality and heart health while strengthening bones and boosting mood with our carefully selected nutrients. Each bottle contains a 30-day supply of 60 capsules, ensuring your journey through menopause is supported every step of the way. Embrace a holistic approach to well-being with Poko Just Pause, the ultimate supplement for menopause symptom relief and organic hormone management.",
+        "category": "Fulfilment"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8648867512604",
+        "product": "Naturecan 1000mg CBD Cooling Menthol Muscle Balm - 100ml",
+        "seo_desc": "Experience the ultimate muscle recovery with Naturecan's 1000mg CBD Cooling Menthol Muscle Balm. Perfect for athletes and fitness enthusiasts, this vegan-friendly, THC-free CBD topical offers immediate post-workout relief. Infused with high-quality, broad-spectrum CBD and cooling menthol, our balm targets sore, tired muscles, providing a fast-acting and effective solution. Each 100ml tub is packed with natural ingredients, ensuring a hydrating and soothing sensation upon application. Ideal for those engaging in high-intensity exercise, this lab-tested CBD cream is a must-have for your fitness regime. Embrace the cooling muscle balm that supports intense exercise recovery and promotes overall well-being. Discover the benefits of our THC-free CBD topical and elevate your post-workout routine today.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206461993244",
+        "product": "Feel Supreme Turkey Tail Mushroom Liquid Tincture   60Ml",
+        "seo_desc": "Discover the power of nature with Feel Supreme's Turkey Tail Mushroom Liquid Tincture, a potent herbal supplement designed to fortify your immune system. This UK-made, high-strength tincture is teeming with polysaccharides, including beta-glucans, that are essential for immune stimulation and natural defence against illness. Embrace the anti-inflammatory benefits that can soothe various conditions and improve gut health. Each drop is a step towards enhanced overall wellness, thanks to its rich antioxidant properties. Ideal for those seeking a natural, holistic approach to health, this 60ml bottle offers a two-month supply of nature's finest. Elevate your daily routine with this antioxidant mushroom extract and experience the transformative effects of a balanced immune response and improved gut health.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206385217820",
+        "product": "Voyager 450Mg Cbd Mints   30 Pieces",
+        "seo_desc": "Discover the invigorating world of CBD with Voyager's 450mg CBD Mints, a delightful blend of wellness and flavor. Each tin contains 30 gluten-free, THC-free mints, perfect for vegans and those on a gluten-free diet. With 15mg of high-quality cannabidiol per mint, these refreshing tablets offer a convenient daily CBD supplement. The natural mint flavor ensures a pleasant experience, making it an ideal choice for individuals seeking a discreet and enjoyable way to maintain their CBD regimen. These portable mints come in a sleek metal tin, making it easy to carry your CBD wellness wherever you go. Embrace the future of CBD consumption with Voyager's CBD Mints, the tasteful way to support your lifestyle.",
+        "category": "CBD Food"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "9004918964508",
+        "product": "SPLYFT Eco Bar 2000mg CBD Biodegradable Disposable Vape - 3500 puffs",
+        "seo_desc": "Indulge in the ultimate CBD experience with the SPLYFT Eco Bar 2000mg CBD Biodegradable Disposable Vape - 3500 puffs. This luxurious and eco-friendly vape offers a generous 8ml capacity for long-lasting use. With 2000mg of CBD, it provides maximum therapeutic benefits for those seeking relief from pain, anxiety, and inflammation. What sets this product apart is its recyclable-based construction, making it a sophisticated and responsible choice for environmentally conscious consumers. Choose from 8 mouth-watering flavors like Blueberry Sour Raspberry, Pink Lemonade, and Grape Gummies to elevate your wellness routine. Lab-tested for safety, purity, and potency, this vape is derived from 100% USA organic hemp and made in the UK for quality assurance. With a THC content of less than 2%, it offers a non-intoxicating experience. The SPLYFT Eco Bar 2000mg CBD Biodegradable Disposable Vape - 3500 puffs is the perfect choice for adult CBD users who value sustainability, high CBD concentration, and delicious flavors.",
+        "category": "CBD Disposable"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8758375809308",
+        "product": "Haze CBD 500mg Gummy Bears - 20 Pieces",
+        "seo_desc": "Discover the calming world of Haze CBD 500mg Gummy Bears, your go-to solution for stress relief and improved sleep. These premium CBD edibles offer a discreet and tasty way to incorporate the wellness benefits of CBD into your daily routine. Each gummy bear delivers a precise 25mg dose of high-quality CBD, designed to help you manage anxiety, enhance sleep quality, and bolster your immune system. Ideal for those seeking a non-addictive alternative to traditional medication, these THC-free gummies ensure you can enjoy the therapeutic effects without any psychoactive response. Embrace a healthier lifestyle with these fruity, fizzy gummy bears and experience the transformative power of CBD. Perfect for individuals prioritizing their well-being and looking for the most effective, side-effect-free way to consume CBD.",
+        "category": "CBD Food"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206568554780",
+        "product": "1Cbd Soft Gel Capsules 10Mg Cbd 30 Capsules",
+        "seo_desc": "Discover the simplicity of maintaining your wellness routine with our 1Cbd Soft Gel Capsules, each packed with 10mg of premium Full Spectrum Extract Phytocannabinoid Rich Pure Hemp CBD Oil. Ideal for those seeking an Easy CBD Intake, our capsules offer a convenient way to get your Daily CBD Capsules dose. With 300mg of CBD per bottle, you receive a consistent 30-Day CBD Supply, ensuring your Phytocannabinoid Wellness journey is uninterrupted. These Non-Vegetarian CBD Option capsules are crafted with high-quality ingredients like coconut oil and beta-caryophyllene, enhancing the bioavailability and potential anti-inflammatory benefits. Although not suitable for vegetarians, our product caters to individuals who prioritize the purity and efficacy of their supplements. Embrace the holistic approach to health with our CBD Oil Capsules, a straightforward solution for your daily wellness needs.",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206460518684",
+        "product": "I Cann Move 10% Orange Infused Cbd Oil   10Ml",
+        "seo_desc": "Discover the invigorating world of 'I Cann Move 10% Orange Infused CBD Oil 10ml', your go-to solution for a zesty wellness boost. Infused with the tangy essence of orange and enriched with Vitamin D, this premium quality, THC-free hemp extract supports bone and muscle function while offering a pure, natural CBD experience. Ideal for vegans and those with gluten sensitivities, our cruelty-free tincture is meticulously third-party lab-tested to ensure the highest standards. Each drop delivers a potent dose of antioxidant-rich CBD, making it a perfect addition to your daily wellness routine. Embrace the ease of precise dosing with our user-friendly pipette. Whether you're looking to enhance your mood or seeking a natural supplement, 'I Cann Move' is your ticket to a vibrant, health-conscious lifestyle.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8648865644828",
+        "product": "Just CBD 750mg Full Spectrum Soft Gels 30ct Capsules",
+        "seo_desc": "Discover the calming embrace of Just CBD's 750mg Full Spectrum Soft Gels, your daily ally in achieving tranquility and anxiety relief. Each of the 30 capsules is infused with 25mg of premium hemp-derived cannabidiol, meticulously designed to offer a consistent CBD dosage for a harmonious wellness routine. Embrace the entourage effect with a full spectrum formula that harnesses the collective power of cannabinoids and terpenes, enhancing the therapeutic potential for a more profound relaxation experience. Ideal for those seeking an easy-to-integrate CBD solution, these gel capsules are the epitome of convenience without compromising on quality. Step into a serene state of mind with Just CBD's Full Spectrum Soft Gels, a cornerstone for anyone's daily health regimen. Elevate your CBD journey with these potent, precision-dosed capsules, and let the natural benefits of cannabinoids guide you to a more balanced, stress-free life.",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206463369500",
+        "product": "Hembiotic 1500Mg Cbd Oil   15Ml",
+        "seo_desc": "Discover the natural path to wellness with Hembiotic 1500Mg Cbd Oil 15Ml, a high-potency, broad-spectrum CBD oil designed for individuals seeking effective organic pain relief and anti-inflammatory benefits. Each 15ml bottle delivers a powerful 1500mg of premium, vegan-friendly CBD, sourced from organic hemp. With a calibrated dropper for precision dosage control, you can tailor your CBD intake to your specific needs, ensuring optimal results. Lab-tested for safety and purity, this oil is a trustworthy addition to your health regimen. Available in a variety of targeted flavors like Anti-Inflammatory and Sleep Aid, Hembiotic caters to a diverse range of wellness goals. Embrace the potency of nature with Hembiotic's CBD Oil, your ally in achieving a balanced, health-focused lifestyle. Whether you're on-the-go or at home, this portable CBD oil is your ticket to a serene and balanced state of being.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206450196764",
+        "product": "Bnatural 1200Mg Cbd Vegan Capsules   60 Caps",
+        "seo_desc": "Discover the natural wellness journey with Bnatural 1200Mg Cbd Vegan Capsules, your daily supplement for a balanced life. These premium, slow-release capsules are a treasure trove of plant-based goodness, offering a potent blend of terpene-infused milled hemp and organic ingredients like rosemary and matcha green tea. Each capsule delivers a precise 20mg of hemp-derived CBD, ensuring a controlled intake for consistent benefits. Ideal for vegans and those seeking a natural alternative to CBD drops, Bnatural capsules are designed for optimal absorption, allowing you to harness the full potential of CBD. Embrace the future of holistic health with these non-GMO, terpene-enriched capsules, and join the trend of mindful, plant-based wellness. Whether you're looking to maintain daily balance or seeking a natural flavor CBD option, Bnatural provides the quality and reliability you deserve.",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206582841628",
+        "product": "Love Hemp 300Mg Peppermint 1% Cbd Oil Spray   30Ml",
+        "seo_desc": "Discover the refreshing embrace of Love Hemp's 300mg Peppermint 1% CBD Oil Spray, a premium broad-spectrum CBD tincture designed for those pursuing a balanced lifestyle and enhanced focus. This 30ml vegan-friendly oil combines the therapeutic potential of CBD with the invigorating taste of natural peppermint. Crafted with 100% natural ingredients and organic MCT oil, it's the perfect gluten-free addition to your wellness routine. Experience the ease of use with its convenient spray bottle, ideal for on-the-go CBD intake. With zero THC, you can trust in the UK's most trusted CBD brand for your daily wellness support. Embrace the future of CBD with this eco-friendly, MCT oil-infused CBD solution, and join the movement towards a healthier, more focused life.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206551482652",
+        "product": "Lvwell Cbd 2400Mg Cbd Fizzy Mix Gummies   120 Pieces",
+        "seo_desc": "Discover the delightful world of Lvwell Cbd 2400Mg Cbd Fizzy Mix Gummies, your go-to choice for a vegan, gluten-free, and terpene-infused CBD experience. Each jar contains 120 pieces, ensuring a long-lasting supply of precisely dosed 20mg broad spectrum CBD gummies. Ideal for those with dietary restrictions, these gummies are gelatine-free, dairy-free, and contain less than 2% THC, catering to a wide range of CBD enthusiasts. The inclusion of terpenes not only enhances the effects but also contributes to a more efficient absorption, making these gummies a superior choice for your daily CBD intake. Whether you're a vegan, vegetarian, or simply seeking a fun and effective way to consume CBD, Lvwell's Fizzy Mix Gummies are designed to meet your needs. Embrace the future of CBD consumption with these innovative and delectable edibles, perfectly aligned with emerging market trends and consumer demands for clean, precise, and potent CBD products.",
+        "category": "CBD Food"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206384431388",
+        "product": "Lvwell Cbd 99%  Isolate 1000Mg Cbd",
+        "seo_desc": "Discover the pinnacle of purity with Lvwell Cbd 99% Isolate 1000Mg Cbd, the ultimate choice for your CBD health routine. This lab-tested, THC-free CBD isolate guarantees a potent and safe experience with its impressive 9% pure CBD content. Ideal for those embracing an organic lifestyle, this vegan-friendly CBD solution caters to all with its gluten-free composition. Dive into a world of wellness without the worry of psychoactive effects, as our non-psychoactive cannabidiol offers a neutral taste for seamless integration into your daily regimen. Embrace the benefits of naturally extracted, non-synthetic CBD and elevate your well-being today. Whether you're looking to enhance your wellness journey or seeking a high-quality CBD dietary supplement, Lvwell Cbd Isolate is your trusted companion.",
+        "category": "CBD Isolates"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206479884572",
+        "product": "Supreme Cbd 6000Mg Full Spectrum Cbd Tincture Oil   30Ml",
+        "seo_desc": "Discover the pinnacle of CBD potency with Supreme CBD's 6000mg Full Spectrum CBD Tincture Oil. Ideal for seasoned CBD enthusiasts, this organic hemp tincture delivers a robust 200mg of CBD per drop, ensuring a powerful and effective experience. Crafted through a premium CO2 extraction process, our full spectrum oil boasts a rich profile of phytocannabinoids and terpenes, offering the entourage effect for enhanced benefits. With a minimal THC content of 14%, it guarantees a safe, non-psychoactive journey to wellness. Each bottle is rigorously third-party lab tested, confirming its unmatched purity and quality. Embrace the natural potency of our high-quality, organic CBD oil, and elevate your daily routine with confidence. Whether you're looking to enhance overall well-being or seeking targeted relief, Supreme CBD's tincture is the gold standard for discerning users.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206422802716",
+        "product": "Orange County Cbd 25000Mg Full Spectrum Cbd Oil   100Ml",
+        "seo_desc": "Discover the pinnacle of cannabinoid wellness with Orange County's 25000mg Full Spectrum CBD Oil. This vegan-friendly, high-potency CBD oil is crafted for those seeking a powerful, cannabinoid-rich supplement. Each drop delivers a substantial 5mg of full spectrum CBD, ensuring a customizable and effective dosage for anxiety relief, dietary supplementation, and overall well-being. With 2000 drops per 100ml bottle, users enjoy a long-lasting supply of premium CBD. The precise dropper makes dosing effortless, catering to individual needs with ease. Infused with MCT oil and terpenes, this oil promises rapid absorption and a full profile of hemp-derived benefits. Ideal for vegans and those with dietary restrictions, this CBD oil is a versatile addition to any wellness routine. Embrace the benefits of nature's finest with Orange County's CBD Oil, your daily partner in achieving balance and tranquility.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206418018588",
+        "product": "Smok Tfv8 Baby Eu Tank Extended Replacement Glass",
+        "seo_desc": "Upgrade your vaping experience with the Smok Tfv8 Baby Eu Tank Extended Replacement Glass. This TPD compliant, high-quality vape replacement glass is the perfect accessory for vapers seeking extended vaping capacity and durability. Designed to fit seamlessly with your SMOK TFV8 Baby EU Tank, this durable vape glass allows for longer sessions and fewer refills, making it an ideal choice for the avid vaper. Its robust construction ensures reliability, while the easy installation process provides convenience for all users. Enhance your vaping performance and enjoy the benefits of a leak-proof, long-lasting vape glass. Whether you're looking to upgrade your tank or need a reliable replacement, this product is tailored to meet the needs of vaping enthusiasts who prioritize quality and extended enjoyment. Don't miss out on this essential vaping session enhancer, available now at an attractive price.",
+        "category": "Replacement Glasses"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206435647772",
+        "product": "Flora Fusion 140Mg Cbd Intense Repair Serum   30Ml",
+        "seo_desc": "Discover the transformative power of nature with the Flora Fusion 140mg CBD Intense Repair Serum. Specially formulated for those seeking a natural acne control and anti-aging solution, this vegan skincare serum is a powerhouse of hydration and rejuvenation. Infused with plant-derived retinoids and rich ceramides, it fortifies your skin barrier, promoting a youthful, radiant complexion. Ideal for both oily and dry skin types, this non-greasy, 30ml CBD repair serum absorbs quickly, leaving your skin feeling refreshed and intensely moisturized. Embrace ethical beauty with this cruelty-free, ethically sourced product, free from harsh chemicals and packed in recyclable materials. Elevate your daily routine with this vegan-friendly skincare choice that harnesses the benefits of CBD for skin repair, making it a must-have for conscious consumers aiming for a healthy, glowing skin.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206488371484",
+        "product": "The Beemine Lab 20Mg Cbd Lip Balm 15Ml",
+        "seo_desc": "Discover the natural healing power of The Beemine Lab 20Mg Cbd Lip Balm 15Ml, your ultimate solution for dry, irritated lips. Infused with high-quality CBD and a blend of organic beeswax and nourishing oils, this lip balm offers unparalleled repair and relief. Its potent anti-inflammatory properties reduce lip inflammation, while the analgesic benefits soothe pain. The antibacterial and antioxidant-rich formula combats cold sores and shields your lips from aging and pollution. Embrace this 85% organic, cruelty-free lip care essential for a luminous, hydrated smile. Ideal for those seeking a natural lip repair with the holistic benefits of CBD, this balm is a must-have in your daily wellness routine. Keep your lips protected and revitalized with this antioxidant CBD balm, a trendsetting product in the ever-evolving CBD market.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206485717276",
+        "product": "Amped Indica Pure Terpenes   2Ml",
+        "seo_desc": "Discover the essence of relaxation with Amped Indica Pure Terpenes 2ml, a premium terpene blend designed for connoisseurs seeking an unparalleled aromatic experience. Infused with the rich, indulgent flavors of Birthday Cake, Dosi Mango, Grape Ape, and Pink Champagne, this indica-dominant hybrid terpene concentrate offers a symphony of sweet, fruity, and earthy notes, complemented by a distinctive grape aroma. Ideal for those desiring a well-balanced hybrid with a unique terpene and cannabinoid profile, our product caters to a refined palate, amplifying the natural flavors of your favorite CBD products. At just \u00a374 per variant, indulge in the purest terpenes for a truly uplifting and delicious tasting journey. Perfect for enhancing the CBD flavor profiles, Amped Indica Pure Terpenes is your go-to for a relaxing and aromatic terpene experience.",
+        "category": "Terpenes"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8800592658716",
+        "product": "NTURE 2000mg Miatake Mushroom Capsules - 60 Caps",
+        "seo_desc": "Discover the power of nature with NTURE 2000mg Miatake Mushroom Capsules, your daily ally for a robust immune system and serene well-being. These UK-made, vegan-friendly capsules harness the adaptogenic essence of Reishi Mushroom, offering a natural path to stress relief and relaxation. Ideal for those seeking cardiovascular health aid and organic liver care, each capsule is a step towards balanced wellness. Embrace the tranquility of improved sleep quality and the vitality of a supported immune system. With a one-month supply of easy-to-integrate capsules, NTURE is your partner in achieving a harmonious state of health. Elevate your routine with this natural sleep enhancer and experience the transformative benefits of holistic self-care.",
+        "category": "Nootropics & Supplements"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206388592924",
+        "product": "Naturecan Activated Charcoal Capsules   90 Caps",
+        "seo_desc": "Discover the power of Naturecan Activated Charcoal Capsules, your natural solution for enhanced digestive well-being. Each capsule is packed with 1000mg of premium coconut-sourced activated charcoal, renowned for its toxin-clearing abilities, making it an ideal choice for those seeking a metabolism booster and anti-bloating support. Embrace the benefits of a healthier gut and improved cholesterol levels with this vegan-friendly supplement. Perfect for individuals aiming for weight management and overall digestive health, these easy-to-swallow capsules are a must-have in your daily regimen. With a competitive price of just \u00a399, Naturecan offers an accessible path to a balanced lifestyle. Tagged as a vegan cholesterol control and gut health supplement, it's designed to cater to the needs of vegetarians, vegans, and anyone looking to detoxify their body naturally. Get ready to feel revitalized and take control of your digestive health with Naturecan's Activated Charcoal Capsules.",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206475100444",
+        "product": "Green Apron 100Mg Cbd Soap & Shampoo   6 Pack",
+        "seo_desc": "Indulge in the luxury of Green Apron's 100Mg CBD Soap & Shampoo 6 Pack, your ultimate solution for a natural and revitalizing bathing experience. Our unique blend of all-natural ingredients, including the power of CBD, caters to those with sensitive skin, offering a moisturizing and healing touch. Each pack features a variety of scents like Gorilla Glue and Active Charcoal, perfect for the eco-conscious individual seeking vegan and cruelty-free hygiene options. With a THC content of less than 2%, enjoy the therapeutic benefits of hemp without any psychoactive effects. This THC-Free Bathing collection is designed for those who appreciate the finer things in life, ensuring a refreshing and luxurious skincare routine. Embrace the trend of Natural CBD Skincare with Green Apron's soap and shampoo, and transform your daily ritual into an oasis of wellness.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8593466786076",
+        "product": "Uwell Valyrian Tank Coils",
+        "seo_desc": "Elevate your vaping journey with the **Uwell Valyrian Tank Coils**, the ultimate choice for vapers seeking **intense vaping experiences** and **flavorful cloud production**. These premium replacement coils are engineered for the Uwell Valyrian Tank, offering a pack that includes a 18 Ohm Mesh Coil and a 15 Ohm Quad Coil, both designed to operate at high wattages (90-120W). The mesh coil technology ensures a balance of flavor and vapor, while the quad coil is tailored for those who crave the thrill of **high-wattage vaping**. Perfect for **cloud chasers** and flavor aficionados, these **long-lasting vape coils** are a must-have for any serious vaper. With a focus on quality and performance, the Uwell Valyrian Tank Coils are set to become your go-to for an unmatched vaping experience. Embrace the future of vaping with these **advanced vaping gear** upgrades and enjoy the satisfaction of a truly exceptional vape.",
+        "category": "Coils"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206580777244",
+        "product": "Love Hemp 1200Mg Valencia Orange 4% Cbd Oil Spray   30Ml",
+        "seo_desc": "Discover the invigorating blend of wellness and flavor with Love Hemp's Valencia Orange 4% CBD Oil Spray. This 1200mg broad-spectrum CBD oil is a vegan's delight, offering a gluten-free solution to enhance focus and support a balanced lifestyle. Infused with organic MCT oil, our premium hemp extract delivers a potent, THC-free experience. Ideal for on-the-go use, this eco-friendly packaged spray ensures you get your daily CBD boost with ease. Simply add to your morning routine for a zesty start or use sublingually for maximum absorption. Embrace the natural path to wellness with the UK's trusted CBD brand. Perfect for those seeking a vegan, gluten-free CBD oil spray that promotes everyday wellness and focus.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206436892956",
+        "product": "Why So Cbd? 3000Mg Broad Spectrum Cbd Natural Oil   30Ml",
+        "seo_desc": "Discover the natural path to wellness with Why So Cbd? 3000mg Broad Spectrum CBD Natural Oil. Sourced from 100% USA-grown organic hemp, this premium CBD oil offers a potent 1800mg of broad-spectrum relief, ensuring you receive the full spectrum of cannabinoids without THC. Each 30ml bottle is equipped with a calibrated dropper for precise CBD dosage, making it simple to integrate into your daily wellness routine. Our cruelty-free CBD oil is meticulously lab-tested for safety, purity, and potency, guaranteeing a pure and effective product. Ideal for those seeking a natural health supplement, Why So Cbd? is free from artificial ingredients, embracing the power of nature for your well-being. Embrace a vegan-friendly, health-focused lifestyle with our top-tier CBD oil, and experience the difference in your overall wellness.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206579728668",
+        "product": "Ascend 100Mg Chamomile & Cbd Cleansing Butter   100Ml",
+        "seo_desc": "Discover the transformative power of nature with Ascend 100Mg Chamomile & CBD Cleansing Butter. This luxurious, organic cleansing butter is expertly crafted in the UK, combining 100mg of premium hemp-derived CBD with a symphony of 14 botanical extracts. Ideal for all skin types, including sensitive skin, this vegan makeup remover gently dissolves impurities and stubborn makeup, leaving your skin feeling refreshed and deeply nourished without any residue. Embrace the benefits of hemp-infused nourishment and chamomile's soothing properties for a serene skincare routine. Our plant-based formula is free from harsh chemicals, ensuring a cruelty-free beauty experience. Elevate your daily regimen with this sensitive skin cleanser and step into a world of organic ingredients and skin hydration boost. Perfect for those seeking a non-stripping formula that respects the skin's natural balance. Join the green revolution with this vegan-friendly product and indulge in the purity of Ascend's CBD Skincare Routine.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8800606650652",
+        "product": "Hempura 3000mg Precision Sport CBD Broad Spectrum Oil Orange Flavoured - 30ml",
+        "seo_desc": "Elevate your athletic regime with Hempura's 3000mg Precision Sport CBD Broad Spectrum Oil, a non-psychoactive supplement designed for peak performance and swift recovery. This UK-crafted, orange-flavored CBD oil ensures a pure, THC-free experience, with each 30ml bottle delivering a potent 3000mg of broad-spectrum CBD. Ideal for athletes and fitness enthusiasts, it offers a precise 5mg CBD per drop for accurate dosage control. Third-party lab testing confirms its quality, making it a trustworthy choice for those seeking the benefits of CBD without any psychotropic effects. Embrace the natural support for your active lifestyle with Hempura's Precision Sport CBD Oil, and enjoy the refreshing taste of orange with every dose. Whether you're looking to enhance your workouts or accelerate recovery times, this CBD oil is the perfect addition to your wellness routine.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "9004919521564",
+        "product": "Purity 1200mg Full-Spectrum High Potency CBD Olive Oil 30ml",
+        "seo_desc": "Introducing CBD to your lifestyle has never been easier with Purity 1200mg Full-Spectrum High Potency CBD Olive Oil 30ml. Our unique cold-pressing technology preserves all the beneficial cannabidiol in the hemp, delivering a solid 1200mg dose in a single 30ml bottle. Perfect for adding a pleasant and nutritious touch to any meal, this CBD oil provides a wholesome boon to your daily routine. With a THC content of less than 2%, you can enjoy the benefits without any psychoactive effects. Try our different flavors, including Natural, Turmeric & Ginger, Orange Blossom, Lemongrass, and Mint. Each variant offers a distinct taste and potential health benefits. Our CBD oil is fully lab tested for quality assurance, ensuring you receive a reliable and effective product. Incorporate CBD into your daily routine and experience the convenience of our high potency CBD oil. Made with cold-pressed cannabidiol extract and olive oil, this CBD oil is a natural and convenient way to enjoy the benefits of CBD. Start with a small dosage and gradually increase if needed. Add a few drops to your favorite recipes for a nutritious boost. Consult a healthcare professional if you have any specific concerns or medical conditions. Please note that this product is not intended to diagnose, treat, cure, or prevent any disease. Keep out of reach of children and pets. Store in a cool, dry place away from direct sunlight. If you experience any adverse effects, discontinue use and consult a healthcare professional.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8930567061788",
+        "product": "Vita Canna 500mg CBD Anti-Chafing Cream 50ml",
+        "seo_desc": "Discover the power of Vita Canna 500mg CBD Anti-Chafing Cream 50ml - the revolutionary solution for preventing and soothing chafed skin. Packed with 500mg of cannabidiol (CBD) and a unique blend of nourishing ingredients, this anti-chafing cream will leave skin feeling hydrated and protected. The convenient 50ml size is ideal for on-the-go use, so you can take relief from chafing wherever you go. Simply apply a small amount and experience the soothing and protective benefits of this premium cream. Whether you're an athlete, have sensitive skin, or simply need fast and natural relief, Vita Canna 500mg CBD Anti-Chafing Cream 50ml is the perfect choice. Change your skincare routine today!",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206387708188",
+        "product": "Why So Cbd? 3000Mg Full Spectrum Cbd E Liquid 120Ml",
+        "seo_desc": "Discover the ultimate vaping experience with Why So CBD's 3000mg Full Spectrum CBD E-Liquid. Crafted for those who demand high-potency CBD, this 120ml e-liquid is infused with the purest organic hemp extract, offering a robust and authentic full spectrum cannabis flavor. Ideal for vegans and environmentally conscious vapers, our e-liquid is lab-tested to ensure maximum purity and potency. The smooth 60VG/40PG blend provides a satisfying vape, while the childproof and tamper-evident cap ensures safety and peace of mind. Choose from a variety of tantalizing flavors, from Agent Apple to Watermelon Splash, and enjoy the eco-friendly benefits of a recyclable bottle. Elevate your vaping routine with Why So CBD's premium e-liquid, the perfect blend of flavor, quality, and CBD strength.",
+        "category": "CBD Vape"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206381613340",
+        "product": "Hempthy 400Mg Cbd Disposable Vape Pen 600 Puffs",
+        "seo_desc": "Discover the ultimate vaping convenience with Hempthy's 400mg CBD Disposable Vape Pen, a beginner-friendly and cost-effective solution for your CBD needs. This full spectrum CBD pen offers up to 600 satisfying puffs, ensuring a long-lasting and enjoyable experience. With a diverse flavor selection, including Pineapple Express and Sour Diesel, you're guaranteed to find your perfect match. The rechargeable 280mAh battery adds to the ease of use, making it a go-to choice for those seeking hassle-free vaping. Each pen is inhale activated, eliminating the need for buttons and simplifying your sessions. Whether you're new to vaping or looking for a reliable CBD pen, Hempthy's disposable vape pen is designed to cater to your wellness and lifestyle preferences. Embrace the future of vaping with this terpene-infused, flavorful journey that promises purity and satisfaction in every puff.",
+        "category": "CBD Disposables"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206407008540",
+        "product": "Why So Cbd? 4800Mg Broad Spectrum Cbd Natural Oil   50Ml",
+        "seo_desc": "Discover the pinnacle of CBD excellence with Why So Cbd? 4800mg Broad Spectrum CBD Natural Oil. This premium 50ml tincture is crafted from 100% USA-grown organic hemp, delivering a potent and pure CBD experience. Each serving is infused with a robust 33mg of high potency CBD, ensuring a powerful wellness routine. Ideal for those seeking natural, vegan-friendly supplements, our cruelty-free CBD oil is meticulously lab-tested for safety and efficacy. The inclusion of MCT coconut oil enhances absorption, while the calibrated dropper guarantees precise dosing. Embrace the entourage effect with our broad spectrum cannabinoids, free from artificial ingredients. Elevate your daily health regimen with this vegan CBD tincture, a perfect addition for anyone committed to a holistic lifestyle. Whether you're transitioning from cannabis use or simply seeking a reliable CBD product, Why So Cbd? offers the quality and consistency you deserve.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8593460035868",
+        "product": "Smok Novo 5 Pod 30W Kit",
+        "seo_desc": "Elevate your vaping journey with the Smok Novo 5 Pod 30W Kit, a stylish and versatile vape design tailored for enthusiasts seeking a customizable vaping experience. This compact vape kit features an adjustable airflow control, allowing you to fine-tune your vape for smooth vaping clouds and rich, pure tastes. Equipped with a long-lasting 900mAh battery, the Novo 5 ensures you can enjoy your sessions without frequent recharging. The 2ml meshed MTL pods cater to both DTL and MTL vaping styles, offering e-liquid versatility and a satisfying throat hit. Whether you're a seasoned vaper or new to the scene, this pod system's sleek design and user-friendly features make it a top choice. Embrace the future of vaping with the Smok Novo 5 Pod 30W Kit, your solution for a reliable and enjoyable vaping experience.",
+        "category": "Vape Kits"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206398619932",
+        "product": "Lady Green 90Mg Cbd Blueberry Muffin Bath Cubes   360G",
+        "seo_desc": "Indulge in the ultimate relaxation with Lady Green's 90Mg CBD Blueberry Muffin Bath Cubes. Each 20g cube is a blend of pure Epsom and Dead Sea salts, enriched with 5mg of high-quality CBD extract, designed to melt away stress and soothe your senses. These vegan-friendly, mineral-rich bath cubes are infused with natural aromatic oils, offering a serene aromatic bath experience that promotes relaxation and well-being. Perfect for those seeking a stress-relief bath soak, our cubes provide a luxurious, calming bath time ritual. The delightful blueberry muffin scent adds a sweet, comforting touch to your self-care routine. Embrace the tranquility of a mineral-rich bath soak with Lady Green's CBD Bath Cubes, your natural solution for a peaceful, rejuvenated state of mind.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206461403420",
+        "product": "Supreme Cbd 1000Mg Board Spectrum Cbd Deep Freeze Balm   50Ml",
+        "seo_desc": "Discover the ultimate post-exercise rejuvenation with Supreme CBD's 1000mg Broad Spectrum CBD Deep Freeze Balm. Specially formulated for athletes and fitness aficionados, this organic hemp extract balm offers a potent blend of muscle-soothing and joint tension release benefits. Experience the cooling relief of menthol and the therapeutic properties of broad spectrum CBD, perfect for reducing workout-induced stress and promoting relaxation. Each 50ml container is infused with high-quality, lab-tested CBD, ensuring a safe and effective topical solution. Embrace the natural pain remedy that is 100% legal and crafted for targeted delivery, maximizing the balm's efficacy. Whether you're an active gym-goer or someone seeking a natural tension soother, Supreme CBD's Deep Freeze Balm is your go-to for lasting comfort and wellness.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206451867932",
+        "product": "Love Hemp 600Mg Peppermint 2% Cbd Oil Drops   30Ml",
+        "seo_desc": "Discover the harmonious blend of wellness and nature with Love Hemp's 600Mg Peppermint 2% CBD Oil Drops. Specially crafted for those pursuing a balanced lifestyle, this THC-free hemp extract offers a medium strength solution to enhance focus and support daily wellness. Ideal for vegans and gluten-free diets, our eco-friendly CBD oil merges the purest natural ingredients with the efficiency of organic MCT oil for superior absorption. Embrace a non-psychoactive journey to well-being with our precise dosage dropper, ensuring you get just the right amount of CBD goodness. Whether you're looking to integrate CBD into your morning routine or seeking a sustainable health supplement, Love Hemp's peppermint CBD oil is your trusted companion for a life in equilibrium. Shop now for a greener path to vitality.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8648860401948",
+        "product": "12 x Common Original Sparkling Broad Spectrum 22mg CBD Water - 330ml",
+        "seo_desc": "Discover the perfect blend of wellness and sustainability with our 12 x Common Original Sparkling Broad Spectrum 22mg CBD Water. Each 330ml aluminium bottle offers a zero sugar, vegan-friendly hydration solution enriched with natural hemp extract and essential B + C vitamins. Ideal for health-conscious individuals seeking a daily dose of CBD without any added flavors, our eco-friendly CBD packaging ensures you can maintain your balanced lifestyle while supporting the environment. This THC-free, lab-tested CBD water is designed to integrate seamlessly into your routine, providing the hydration and equilibrium your body craves. Embrace the future of wellness with our broad spectrum CBD water, a refreshing choice for those who value purity and sustainability.",
+        "category": "CBD Drinks"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206386528540",
+        "product": "Mega Fruits 85% Cbd 4.5% Cbg Broad Spectrum Cbd Crumble   1G",
+        "seo_desc": "Discover the ultimate CBD indulgence with our Mega Fruits 85% CBD 5% CBG Broad Spectrum CBD Crumble. Crafted for purity and potency, this THC-free CBD crumble offers a robust wellness experience with the added benefits of CBG. Savor the rich tapestry of flavors, from Strawberry to Grape, as you enjoy the premium quality of USA-made broad spectrum distillate. Ideal for those seeking a potent CBD experience without THC, our crumble caters to flavor enthusiasts and health-conscious consumers alike. Elevate your vaping routine with our fruit-flavored CBD crumble, designed for long-lasting use and maximum satisfaction. Embrace the future of CBD wellness with our trendsetting, flavorful CBD vaping crumble.",
+        "category": "CBD Shatter"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8930568765724",
+        "product": "Reakiro 1000mg CBD Apple Crumble & Custard Flavour Spray 30ml",
+        "seo_desc": "The Reakiro 1000mg CBD Apple Crumble & Custard Flavour Spray 30ml is a delicious and convenient way to enjoy the benefits of CBD. Each 30ml bottle contains 1000mg of premium full-spectrum CBD oil with a delightful apple crumble and custard flavour. The spray format allows for easy and precise dosing, making it a convenient option for individuals looking for a hassle-free CBD experience. ",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206405009692",
+        "product": "Canndid 750Mg Cbd Capsules   30 Caps",
+        "seo_desc": "Discover the convenience of Canndid 750Mg CBD Capsules, your go-to solution for a controlled and easy CBD dosage. Each THC-free capsule is a powerhouse of wellness, offering long-lasting effects from EU grown hemp, ensuring quality and purity. Perfect for those seeking a straightforward CBD capsule routine, these capsules provide a slow-release formula for sustained benefits throughout the day. Ideal for individuals transitioning from cannabis use, Canndid capsules support a balanced lifestyle with non-psychoactive, vegan-friendly ingredients. Embrace the natural hemp wellness revolution with these premium, easy-to-swallow capsules, and experience the therapeutic advantages of CBD without the hassle. Whether you're at home or on the go, Canndid CBD Capsules are your ticket to a consistent and reliable hemp health supplement.",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206409597212",
+        "product": "Vita Canna 500Mg Broad Spectrum Cbd Vegan Capsules   50 Caps",
+        "seo_desc": "Discover the natural wellness journey with Vita Canna 500mg Broad Spectrum CBD Vegan Capsules. Each bottle contains 50 premium capsules, meticulously crafted from 100% USA-grown organic hemp, ensuring a THC-free experience. With 10mg of potent CBD per capsule, these vegan-friendly supplements are perfect for individuals seeking a daily CBD wellness routine without the psychoactive effects. Lab-tested for safety, purity, and potency, Vita Canna offers a reliable and straightforward alternative to CBD oils. The diverse variants, including Boost, Clarity, and Defence, cater to specific health goals, from mental clarity to immune support. Embrace the holistic benefits of cannabinoids with Vita Canna's capsules, your daily partner in achieving a balanced and vibrant lifestyle. Perfect for vegans and those preferring non-oil CBD options, these capsules are set to become a staple in the evolving CBD market, aligning with emerging trends in plant-based supplements and clean, transparent ingredient sourcing.",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8648858829084",
+        "product": "Just CBD 550mg Coconut Oil Tincture - 30ml",
+        "seo_desc": "Discover the calming oasis of Just CBD's 550mg Coconut Oil Tincture, a premium 30ml CBD oil designed to soothe your stress and enhance relaxation. Infused with the natural essence of coconut, this tropical CBD flavor offers a delightful taste experience. Its unique formulation includes MCTs for quick absorption, ensuring you feel the benefits of CBD faster. Perfect for sublingual use, as a beverage additive, or mixed with food, this versatile tincture caters to a variety of preferences. With a THC content of less than 2%, it's both legal and non-psychoactive. Embrace a stress-free lifestyle with this long-lasting cannabidiol solution, crafted for those who value wellness and flavor. Whether you're at home or on-the-go, Just CBD's Coconut Oil Tincture is your companion for serene moments and sustained tranquility.",
+        "category": "CBD Food"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8593462427932",
+        "product": "OXVA Unicoil replacement coils 0.5\u03a9",
+        "seo_desc": "Elevate your vaping sessions with the Oxva Unicoil Replacement Coils 5\u03a9, the ultimate choice for vapers seeking intense flavor and a robust sub-ohm experience. These premium coils are engineered for compatibility with Oxva vape devices, ensuring a seamless fit and optimal performance. With a resistance range from 2 to 0\u03a9, they cater to both direct-to-lung (DTL) and mouth-to-lung (MTL) preferences, accommodating high VG and high PG e-liquids respectively. The easy-to-replace design makes maintenance a breeze, while the long lifespan guarantees an extended period of peak flavor and vapor production. Available in a convenient pack of five, these coils are priced at \u00a398, offering both quality and value. Perfect for vapers who prioritize taste and durability, the Oxva Unicoil Replacement Coils are a must-have for a top-tier vaping journey.",
+        "category": "Other Vape Accessories"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8648863318300",
+        "product": "24 x TRIP 15mg CBD Infused Cold Brew Coffee Drink 250ml",
+        "seo_desc": "Elevate your coffee experience with the TRIP 15mg CBD Infused Cold Brew Coffee Drink. This 250ml can offers a unique blend of smooth, 24-hour brewed black coffee and full spectrum CBD for a refreshing, jitter-free energy boost. With zero added sugars and zero calories, it's the perfect vegan-friendly beverage for health-conscious individuals. Sourced from organically grown UK hemp, our non-psychoactive drink ensures you enjoy the benefits of CBD without the high. Ideal for coffee aficionados and CBD enthusiasts alike, this THC-free drink caters to a plant-based lifestyle while providing a delicious, potent coffee kick. Discover the synergy of CBD Cold Brew Energy and Organic Hemp Coffee with every sip. Embrace the future of wellness drinks with our Zero-Calorie Relaxation coffee, a trendsetting choice in the evolving CBD market.",
+        "category": "CBD Drinks"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206407598364",
+        "product": "Nootrocan 375Mg Full Spectrum Cbd Nootropic Dried Fruits   150G",
+        "seo_desc": "Discover the synergistic blend of wellness and cognitive support with Nootrocan 375mg Full Spectrum CBD Nootropic Dried Fruits. Perfect for health-conscious individuals, these vegan CBD snacks are a delicious way to enhance memory, focus, and mental clarity. Each 150g pack is brimming with organic, lab-tested CBD from USA-grown hemp, ensuring you receive the purest experience without any harmful chemicals. Embrace the power of nature with these organic hemp nootropics, designed to support your cognitive functions and overall well-being. Whether you're looking to improve concentration or seeking a memory-boosting edible, Nootrocan offers a tantalizing taste and cognitive edge. Dive into the future of holistic health with these full spectrum CBD fruits, a must-have for anyone invested in their mental and physical health journey.",
+        "category": "CBD Food"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206458421532",
+        "product": "Lifebio Boost & Protect Patches   30 Patches",
+        "seo_desc": "Elevate your wellness routine with Lifebio Boost & Protect Patches, the ultimate transdermal solution for immune system support and energy level enhancement. Each patch is power-packed with 4000IU of Vitamin D3 and 3mg of Vitamin B12, key nutrients for combating seasonal flu and fatigue. Designed for maximum absorption, these vegan health patches ensure you receive your daily vitamins effortlessly. Ideal for those with limited sun exposure or darker skin, our patches are a convenient, cruelty-free alternative to traditional supplements. Made in the UK, these non-GMO patches are GMP certified, ensuring the highest quality standards. Embrace a healthier lifestyle with these easy-to-use, energy-boosting patches and shield yourself from seasonal ailments. With 30 patches per pack, Lifebio ensures you're covered for a whole month of wellness. Stay ahead of health trends and make Lifebio Boost & Protect Patches a staple in your self-care arsenal.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206526808348",
+        "product": "Nectar 1000Mg Cbd Muscle Balm   50Ml",
+        "seo_desc": "Discover the ultimate solution for muscle discomfort with the Nectar 1000Mg CBD Muscle Balm. Specially formulated for athletes and active individuals, this balm offers a natural path to muscle recovery. Infused with 1000mg of pure CBD isolate, it targets inflammation and eases muscle soreness, making it an essential post-workout care product. The blend of organic ingredients, including hydrating coconut oil and soothing essential oils like lavender and eucalyptus, provides a non-greasy, fast-absorbing experience that promotes skin health. Ideal for those seeking vegan muscle care, our balm is a synergy of nature's best, ensuring your skin remains hydrated and your muscles relieved. Embrace the power of CBD and experience the comfort you deserve with Nectar's CBD Muscle Balm.",
+        "category": "CBD Skincare"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206405140764",
+        "product": "Zen 70Mg Cbd Drink   Mixed Berry",
+        "seo_desc": "Discover the harmonious blend of taste and tranquility with Zen 70Mg Cbd Drink Mixed Berry, your go-to natural relaxation drink. Infused with a robust 70mg of high-strength CBD, this wellness beverage is designed to alleviate stress, soothe muscle tension, and promote overall well-being. Savor the delectable mixed berry flavor as you enjoy the fast-absorbing benefits of CBD, perfect for those busy days when you need stress relief on-the-go. Each sip offers a refreshing, berry-flavored escape, making it an ideal addition to your wellness routine. Embrace the natural path to relaxation and comfort with this premium CBD dietary supplement. Whether you're at home or out and about, Zen 70Mg Cbd Drink provides a convenient and delightful way to consume your daily CBD. Dive into the world of CBD muscle comfort and experience the difference today with Zen's refreshing CBD drink.",
+        "category": "CBD Drinks"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8648849424668",
+        "product": "Just CBD 3000mg Gummies - 600g",
+        "seo_desc": "Embark on a wellness journey with Just CBD's 3000mg Gummies, the perfect choice for those seeking a medium-strength, lab-tested CBD experience. Each 600g pack offers a delightful assortment of flavors, ensuring a tasty and enjoyable way to incorporate CBD into your daily routine. With precise dosing of 16-30mg per gummy, you maintain full control over your CBD intake. These THC-free edibles are ideal for consumers desiring the benefits of CBD without any psychoactive effects. Crafted with high-quality ingredients and third-party lab verification, Just CBD Gummies are a trustworthy dietary supplement for those looking to enhance their well-being. Dive into the world of CBD with confidence and savor the flavor-packed, health-oriented benefits of Just CBD's gummy selection. Whether you're a seasoned CBD user or just starting, these gummies are tailored to meet your needs and support your lifestyle.",
+        "category": "CBD Food"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206510719260",
+        "product": "Dr K Cbd Natural Golden Standard 500Mg Cbd Oil   30Ml",
+        "seo_desc": "Discover the pure essence of wellness with Dr K's Natural Golden Standard 500mg CBD Oil. This premium, broad spectrum CBD oil is expertly crafted from 100% organic Colorado-grown hemp, offering a potent 16mg of CBD per 1ml without the common earthy aftertaste. Ideal for vegans and adhering to kosher and halal dietary standards, this THC-free hemp extract is blended with organic MCT oil for enhanced absorption. Each batch is rigorously lab-tested, ensuring safety, purity, and a minimum of 85% active CBD. Embrace the natural power of Dr K's CBD oil, a vegan CBD supplement that supports your well-being. With the rise of holistic health trends and the increasing demand for plant-based supplements, this unflavoured CBD oil is positioned to meet the needs of health-conscious consumers. As the market shifts towards organic and ethically sourced products, Dr K's commitment to quality and purity makes it a top choice for those seeking a reliable, high potency CBD solution.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206424342812",
+        "product": "Phenopen Cbd Hemp Refill Cartridge   Body",
+        "seo_desc": "Discover the power of nature with the PhenoPen CBD Hemp Refill Cartridge Body, your ultimate solution for fast and effective relief from chronic pain. This premium vape cartridge is packed with a potent 500mg blend of pure hemp extract, delivering a robust 75% total cannabinoid content for maximum therapeutic benefits. Each puff promises approximately 1-2mg of high-quality CBD, ensuring a controlled and non-psychoactive experience. Embrace the natural hemp flavor and benefit from a full spectrum profile that's rigorously GMP certified and third-party lab tested for purity. Ideal for individuals seeking a reliable and clean alternative for managing their ailments, the PhenoPen offers a sophisticated dose control feature and built-in haptic technology for an intuitive vaping journey. Step into a world of wellness and tranquility with this top-tier CBD vaping option, available at an attractive price point. Say goodbye to discomfort and hello to a serene state of mind with every inhalation.",
+        "category": "CBD Vape"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206400028956",
+        "product": "Smok R Kiss 200W Kit",
+        "seo_desc": "Discover the ultimate vaping experience with the Smok R Kiss 200W Kit, a powerful and stylish vaping device designed for enthusiasts and newcomers alike. This compact vape kit boasts a 200W max output, delivering robust vapor production and rich flavor with every puff. The user-friendly interface ensures easy access to detailed vaping information, making it a breeze to tailor your sessions. Equipped with the TFV-Mini V2 tank and innovative coils, the R Kiss kit enhances vapor production, satisfying the most discerning cloud chasers. Its sleek design and multiple color options cater to your personal style, while the portability factor makes it an ideal companion for on-the-go vaping. Whether you're a direct-to-lung vaper or simply seeking a reliable device, the Smok R Kiss 200W Kit is your ticket to a premium vaping journey. Available now for a competitive price, embrace the future of vaping today.",
+        "category": "Vape Kits"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206490501404",
+        "product": "Fly Oil 1000Mg Cbd Broad Spectrum Tincture Oil 30Ml",
+        "seo_desc": "Discover the pure essence of hemp with Fly Oil's 1000mg CBD Broad Spectrum Tincture Oil, a premium vape-ready formula designed for discerning enthusiasts seeking the full benefits of CBD without THC's psychoactive effects. This 30ml dropper bottle is infused with natural organic terpenes, offering a symphony of flavors that elevate your vaping experience. With a perfect PG/VG ratio of 50/50, it's optimized for smooth vaping sessions. Our THC-Free CBD Tincture guarantees non-detectable THC levels (less than 05%), ensuring compliance and peace of mind. Each batch is meticulously quality controlled, boasting a certified CBD concentration, and is crafted with USP/food-grade ingredients, including a nourishing MCT coconut oil base. Ideal for those who appreciate the broad spectrum benefits and the entourage effect without any unwanted additives. Fly Oil's tincture is nicotine-free, alcohol-free, and free from animal extracts, making it a top choice for health-conscious individuals. Embrace the future of wellness with this certified, childproof, and tamper-proof CBD solution.",
+        "category": "CBD Oil"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8648880029980",
+        "product": "Just CBD 3000mg Vape Juice - 60ml",
+        "seo_desc": "Discover the ultimate vaping journey with Just CBD's 3000mg Vape Juice, available in a 60ml bottle. This premium vape juice is designed for those who crave a **Potent CBD Vape** experience with a **Flavorful Vaping Experience**. Each draw offers a symphony of tastes, from the tangy **Blue Razz** to the decadent **Strawberry Cheesecake**, catering to all palates. As a **THC-Free CBD Juice**, it ensures a **Non-Intoxicating Vape** session with less than 3% THC, making it a safe and legal choice. The product is rigorously **Quality Tested CBD**, providing peace of mind with every puff. Ideal for vapers seeking a potent, flavorful, and trustworthy CBD product, Just CBD Vape Juice stands out as a top-tier option in the market. Whether you're transitioning from cannabis or simply looking for a reliable CBD vape, this juice meets your needs while promising a delightful and effective experience.",
+        "category": "CBD Vape"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206414020892",
+        "product": "Smok V12 Prince X6 Coil   0.15 Ohm",
+        "seo_desc": "Elevate your vaping journey with the Smok V12 Prince X6 Coil 15 Ohm, the ultimate choice for cloud chasers and flavor enthusiasts. Designed for the renowned Prince Tank, this sextuple coil guarantees intense vapor production and a flavorful vaping experience. Operating optimally between 80-100W, it caters to sub-ohm vapers seeking a robust and satisfying draw. Compatible with high VG e-liquids, it's perfect for those who prefer a smooth, Direct-to-Lung vaping style. The coils are user-friendly, ensuring easy installation and quick replacement. Whether you're a seasoned vaper or transitioning towards vaping cessation, this coil offers a premium experience. Don't miss out on the chance to transform your sessions with this high-performance coil, available at an attractive price point. Embrace the future of vaping with the Smok V12 Prince X6 Coil, a must-have for a top-tier vape.",
+        "category": "Coils"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206404026652",
+        "product": "The Shroom Shop Enhanced Sleep 67500Mg Capsules   90 Caps",
+        "seo_desc": "Discover the path to tranquil nights with The Shroom Shop Enhanced Sleep 67500Mg Capsules, your vegan-friendly sleep aid designed to promote restful sleep and alleviate insomnia. These natural sleep capsules are a blend of Reishi, Ashwagandha, L-Theanine, and 5-HTP, working synergistically to boost melatonin levels and enhance sleep quality. Ideal for those struggling with sleep disturbances, stress, and anxiety, this deep sleep enhancer is a must-have for anyone seeking a natural melatonin booster and stress relief supplement. With a one-month supply, experience the transformative effects of improved health and wellbeing. Embrace the benefits of a natural insomnia remedy and join the ranks of satisfied sleepers who have found solace in The Shroom Shop's vegan sleep capsules. Say goodbye to restless nights and welcome the dawn of rejuvenating sleep with this top-tier deep sleep enhancer.",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206522417436",
+        "product": "Cbc+ 150Mg Cbc E Liquid 30Ml",
+        "seo_desc": "Discover the therapeutic potential of CBC with our premium CBC+ 150mg CBC E Liquid. Specially formulated for those seeking the holistic benefits of non-psychoactive hemp, this 30ml e-liquid offers a potent dose of high-quality Cannabichromene. Ideal for enhancing cognitive functions and providing relief from acne and pain, our product is a top choice for health-conscious individuals. Extracted from organically grown hemp and rigorously lab-tested, you can trust in the purity and safety of our e-liquid. Available in four delectable flavors\u2014Blue Raspberry, Strawberry Kiwi, Banana Split, and Menthol\u2014each bottle promises a flavorful vaping experience. Embrace the power of nature with our eco-friendly and childproof packaging, ensuring both environmental sustainability and peace of mind. Elevate your wellness routine with our CBC+ E Liquid, the perfect blend of efficacy and enjoyment.",
+        "category": "CBD Vape"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206395375900",
+        "product": "Cbd By British Cannabis 300Mg Cbd Oral Capsules 30 Caps   Sleep",
+        "seo_desc": "Discover the tranquility of a restful night with our 'CBD by British Cannabis 300mg CBD Oral Capsules Sleep'. These premium capsules are your natural sleep aid, expertly blending 10mg of high-quality CBD with soothing Chamomile and Lavender, designed to support healthy sleep patterns and promote relaxation. Ideal for those seeking a herbal sleep aid or a wellness supplement to enhance their lifestyle, our CBD Sleep Support capsules offer an effective CBD absorption method, ensuring you receive the full benefits of CBD. Each pack contains 30 capsules, making it easy to incorporate into your daily routine for stress relief and improved well-being. Embrace the natural path to a serene night's sleep and a more balanced life with our Non-Psychoactive Supplement. Perfect for individuals prioritizing natural ingredients and a holistic approach to health.",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8930568274204",
+        "product": "Reakiro 900mg Full Spectrum CBD Soft Gel Capsules - 60 Caps",
+        "seo_desc": "Experience the potential benefits of CBD with Reakiro 900mg Full Spectrum CBD Soft Gel Capsules. Each capsule contains 15mg of full-spectrum hemp extract, providing an effective dose of the entire plant. These easy-to-swallow capsules are made with just three simple, natural, and effective ingredients: premium CBD, pharmaceutical-grade gelatin, and hemp seed oil. With a higher-strength formula, this product is perfect for those looking for a reliable CBD option. Lab-tested for safety, purity, and potency, these cruelty-free capsules are suitable for both new and experienced CBD users. THC content is less than 2%. Swallow the capsule whole, do not chew or suck them. Take one or two capsules daily as directed. For more detailed usage instructions, please refer to the product catalogue. As with any CBD product, it is recommended to consult with a healthcare professional before use, especially if you have any underlying medical conditions or are taking medication. Keep out of reach of children. Store in a cool, dry place away from direct sunlight.",
+        "category": "CBD Capsules"
+      }
+    },
+    {
+      "_source": {
+        "product_id": "8206395998492",
+        "product": "Bnatural 300Mg Broad Spectrum Cbd Natural Oral Drops   10Ml",
+        "seo_desc": "Discover the natural path to wellness with Bnatural 300Mg Broad Spectrum CBD Natural Oral Drops. Sourced from organic USA-grown hemp and meticulously crafted in the UK, this premium CBD oil offers a harmonious blend of natural cannabis terpenes and refined hemp seed oil. Each 10ml bottle delivers a 30-day supply of plant-based goodness, ensuring a consistent daily CBD dosage with 5mg per drop for precise control. Embrace the benefits of broad spectrum CBD, lab-tested for purity and potency, and government approved for your peace of mind. Ideal for individuals seeking organic CBD relief and a balanced 3% CBD concentration, Bnatural's oral drops are a testament to plant-based wellness and the power of natural healing. Elevate your daily routine with this vegan-friendly, sublingual CBD solution, available at an attractive price point for quality you can trust.",
+        "category": "CBD Oil"
+      }
+    }
+  ]
+}
