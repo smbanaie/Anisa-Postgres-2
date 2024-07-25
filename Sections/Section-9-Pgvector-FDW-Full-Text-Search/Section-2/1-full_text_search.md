@@ -125,7 +125,7 @@ select seo_desc_vector from products limit 1  ;
   1. Processes the input query text.
   2. Removes stop words.
   3. Stems the remaining words.
-  4. Supports boolean operators (& for AND, | for OR, ! for NOT).
+  4. **Supports boolean operators** (& for AND, | for OR, ! for NOT).
   
   #### Example:
   ```sql

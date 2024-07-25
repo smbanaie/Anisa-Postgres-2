@@ -1,0 +1,21 @@
+#Only after installation of docker
+permanently: 
+   nano /etc/sysctl.conf -> vm.max_map_count=262144
+   							vm.overcommit_memory=1
+   sysctl -p
+   
+temporarily: 
+	sysctl -w vm.max_map_count=262144
+	sysctl vm.overcommit_memory=1
+
+cd /docker-files/postgresql
+
+mkdir backup scripts archive conf
+mkdir -p /data/postgres/data/master
+
+sudo chown -R 1001:1001 ./backup ./scripts ./archive /data/postgres/data/master
+
+sudo chmod -R 775 ./backup ./scripts ./archive ./conf /data/postgres/data/master
+
+
+pg_basebackup -h localhost -D /backup -P -U repl_user -Fp -Xs -R

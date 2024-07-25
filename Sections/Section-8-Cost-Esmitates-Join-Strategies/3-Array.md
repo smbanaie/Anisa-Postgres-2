@@ -65,7 +65,7 @@ SELECT name, unnest(scores) AS individual_score FROM students;
 
 a. Contains (`@>`):
 ```sql
-SELECT * FROM students WHERE scores @> ARRAY[90];
+    SELECT * FROM students WHERE scores @> ARRAY[90];
 ```
 
 b. Overlaps (`&&`):
@@ -152,6 +152,9 @@ SELECT matrix[2][2] FROM matrix_example;  -- Returns 5
 SELECT ARRAY[1,2,3] || ARRAY[4,5,6] AS concatenated,
        ARRAY[1,2,3,4] & ARRAY[2,3,4,5] AS intersection,
        ARRAY[1,2,3,4] | ARRAY[3,4,5,6] AS union;
+ ?      
+       
+       
 ```
 
 13. Generating arrays:
@@ -163,7 +166,7 @@ SELECT generate_series(1, 5) AS generated_array;
 14. JSON to array conversion:
 
 ```sql
-SELECT json_array_elements('[1, 2, 3]'::json)::integer AS json_to_array;
+SELECT json_array_elements('[1, 2, 3]'::json) AS json_to_array;
 ```
 
 

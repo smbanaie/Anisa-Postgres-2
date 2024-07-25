@@ -36,7 +36,7 @@ The *read committed* isolation level guarantees that dirty reads will never happ
 
 - run this in one of them :
 
-  - ` create table t(int a, int b);` 
+  - ` create table t(a int ,b int);` 
 
 - run this in Window #1
 
@@ -197,3 +197,10 @@ Here the second transaction’s UPDATE blocks, because PostgreSQL places a lock 
 At this level, the commit of the second transaction fails. The second transaction’s actions were based on facts that were rendered invalid by the time it was about to commit.
 
 While serialization provides the highest level of safety, it also means that the application has to detect such commit failures and retry the entire transaction.
+
+```sql
+begin isolation level Serializable;
+...
+
+```
+

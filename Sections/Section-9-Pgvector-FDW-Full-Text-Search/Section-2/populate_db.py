@@ -4,7 +4,7 @@ import psycopg2
 # Replace these values with your database connection details
 db_connection_params = {
     'host': 'localhost',
-    'database': 'cbd_store',
+    'database': 'anisa',
     'user': 'postgres',
     'password': 'postgres123',
     'port' : 5434

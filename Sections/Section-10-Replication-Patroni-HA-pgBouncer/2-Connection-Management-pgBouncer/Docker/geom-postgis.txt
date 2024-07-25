@@ -1,0 +1,14 @@
+-- First, ensure PostGIS extension is enabled
+CREATE EXTENSION IF NOT EXISTS postgis;
+
+-- Then add the geography column
+ALTER TABLE pages
+ADD COLUMN geom geography(POINT, 4326);
+
+-- Update the geom column based on latitude and longitude
+UPDATE pages
+SET geom = ST_SetSRID(ST_MakePoint(longitude, latitude), 4326)::geography
+WHERE latitude IS NOT NULL AND longitude IS NOT NULL;
+
+-- Optionally, add an index for faster spatial queries
+CREATE INDEX idx_pages_geom ON pages USING GIST (geom);

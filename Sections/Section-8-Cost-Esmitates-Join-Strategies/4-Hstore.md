@@ -94,6 +94,7 @@ SELECT name, avals(attributes) AS values FROM products;
 a. hstore_agg: Aggregate multiple HStores into a single HStore:
 ```sql
 SELECT hstore_agg(attributes) FROM products;
+?
 ```
 
 9. Combining HStores:
@@ -115,7 +116,7 @@ WHERE attributes @> 'brand => "Dell", color => "black"';
 
 a. Check if any key matches a value:
 ```sql
-SELECT * FROM products WHERE attributes ?| ARRAY['black', 'white'];
+SELECT * FROM products WHERE attributes ?| ARRAY['brand', 'color'];
 ```
 
 b. Check if all keys exist:

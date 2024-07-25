@@ -6,17 +6,42 @@
 
 - restore it using pg_restore in a new `DB` named `northwind20`
 
-  ```sql
-  pg_dump -U postgres -j 4 -d northwind --data-only -w -Fd -f northwind  
-  
-  pg_dumpall -U postgres --schema-only -w --exclude-database=pagila -f all_except_pagila.sql
-  
-  pg_restore -U postgres --disable-triggers -j 4 -p 5434 -d northwind -Fd northwind  
-  
+  ##### Suppress Password Prompts
+
+  #### ENV Variable
+
+  - **Linux**
+
+  ```bash
+  export PGPASSWORD=<your_password>
+  ```
+
+  - **Windows - Powershell**
+
+  ```bash
+  $env:PGPASSWORD=<your_password>
+  ```
+
+  - run the `pg_dumpall` with -w
+
+  ```bash
+  pg_dumpall -U postgres  -f alldb.sql --schema-only -w
   ```
 
   
 
+  ```sql
+  pg_dumpall -U postgres --schema-only -w --exclude-database=pagila -f all_except_pagila.sql
+  
+  pg_dump -U postgres -j 4 -d northwind --data-only -w -Fd -f northwind  
+  
+  
+  pg_restore -U postgres --disable-triggers -j 4 -p 5434 -d northwind -Fd northwind  
+  
+  ```
+  
+  
+  
 - do it using `DBeaver` and `PG_Admin`
 
 ### pg_basebackup

@@ -1,0 +1,186 @@
+version: '3'
+
+services:
+  postgres-master:
+    image: anisa/postgresql:${PG_VERSION}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PG_VERSION: ${PG_VERSION}
+    hostname: postgres-master
+    container_name: postgres-master
+    # ports:
+    #   - "5432:5432"
+    volumes:
+      - ./data/postgres/crawl/data:/bitnami/postgresql/data:z
+      - ./data/postgres/crawl/conf:/opt/bitnami/postgresql/conf:z
+      - ./data/postgres/crawl/archive:/archive:Z
+      - ./data/postgres/crawl/backups:/backups:z
+      - ./crawl_volume/scripts:/scripts:z
+    environment:
+      - POSTGRESQL_REPLICATION_MODE=master
+      - POSTGRESQL_REPLICATION_USER=repl_user
+      - POSTGRESQL_REPLICATION_PASSWORD=${REPL_PASSWORD}
+      - POSTGRESQL_USERNAME=postgres
+      - POSTGRESQL_PASSWORD=${PG_PASSWORD}
+      - POSTGRESQL_DATABASE=${CRAWL_DB}
+      - POSTGRESQL_SHARED_PRELOAD_LIBRARIES=pg_stat_statements,pg_repack
+      - POSTGRESQL_ARCHIVE_MODE=on
+      - POSTGRESQL_ARCHIVE_COMMAND=cp %p /archive/%f
+      - POSTGRESQL_SHARED_BUFFERS=4GB
+      - POSTGRESQL_WORK_MEM=16MB
+      - POSTGRESQL_MAINTENANCE_WORK_MEM=1GB
+      - POSTGRESQL_EFFECTIVE_CACHE_SIZE=6GB
+      - POSTGRESQL_MAX_CONNECTIONS=200
+      - POSTGRESQL_WAL_BUFFERS=16MB
+    command:
+      - /bin/bash
+      - -c
+      - |
+        /opt/bitnami/scripts/postgresql/entrypoint.sh /opt/bitnami/scripts/postgresql/run.sh &
+        until PGPASSWORD="${PG_PASSWORD}" psql -U postgres -d ${CRAWL_DB} -c '\q'; do
+          >&2 echo "Postgres is unavailable - sleeping"
+          sleep 1
+        done
+        PGPASSWORD="${PG_PASSWORD}" psql -U postgres -d ${CRAWL_DB} -c "CREATE EXTENSION IF NOT EXISTS pg_stat_statements;"
+        PGPASSWORD="${PG_PASSWORD}" psql -U postgres -d ${CRAWL_DB} -c "CREATE EXTENSION IF NOT EXISTS pg_repack;"
+        wait
+    mem_limit: ${MEM_LIMIT_TEST}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    networks:
+      - anisa_network
+    restart: on-failure:10
+
+  postgres-slave:
+    image: anisa/postgresql:${PG_VERSION}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PG_VERSION: ${PG_VERSION}
+    hostname: postgres-slave
+    container_name: postgres-slave
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_slave_data:/bitnami/postgresql
+    environment:
+      - POSTGRESQL_REPLICATION_MODE=slave
+      - POSTGRESQL_REPLICATION_USER=repl_user
+      - POSTGRESQL_REPLICATION_PASSWORD=${REPL_PASSWORD}
+      - POSTGRESQL_MASTER_HOST=postgres-master
+      - POSTGRESQL_MASTER_PORT_NUMBER=5432
+      - POSTGRESQL_PASSWORD=${PG_PASSWORD}
+      - POSTGRESQL_SHARED_PRELOAD_LIBRARIES=pg_stat_statements, pg_repack
+      - POSTGRESQL_SHARED_BUFFERS=4GB
+      - POSTGRESQL_WORK_MEM=16MB
+      - POSTGRESQL_MAINTENANCE_WORK_MEM=1GB
+      - POSTGRESQL_EFFECTIVE_CACHE_SIZE=6GB
+      - POSTGRESQL_MAX_CONNECTIONS=200
+      - POSTGRESQL_WAL_BUFFERS=16MB
+    depends_on:
+      - postgres-master
+    mem_limit: ${MEM_LIMIT_TEST}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    networks:
+      - anisa_network
+    restart: on-failure:10
+
+  
+  pgbouncer:
+    image: bitnami/pgbouncer:${PG_BOUNCER}
+    hostname: pgbouncer
+    container_name: pgbouncer
+    ports:
+      - "6432:6432"
+    environment:
+      - POSTGRESQL_HOST=postgres-master
+      - POSTGRESQL_PORT=5432
+      - PGBOUNCER_DATABASE=${CRAWL_DB}
+      - PGBOUNCER_POOL_MODE=transaction
+      - PGBOUNCER_MAX_CLIENT_CONN=1000
+      - PGBOUNCER_DEFAULT_POOL_SIZE=100
+      - PGBOUNCER_ADMIN_USERS=postgres
+      - POSTGRESQL_USERNAME=postgres
+      - POSTGRESQL_PASSWORD=${PG_PASSWORD}
+    depends_on:
+      - postgres-master
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    networks:
+      - anisa_network
+    restart: on-failure:10
+
+  pgbouncer-slave:
+    image: bitnami/pgbouncer:${PG_BOUNCER}
+    hostname: pgbouncer-slave
+    container_name: pgbouncer-slave
+    ports:
+      - "6433:6432"
+    environment:
+      - POSTGRESQL_HOST=postgres-slave
+      - POSTGRESQL_PORT=5432
+      - PGBOUNCER_DATABASE=${CRAWL_DB}
+      - PGBOUNCER_POOL_MODE=transaction
+      - PGBOUNCER_MAX_CLIENT_CONN=1000
+      - PGBOUNCER_DEFAULT_POOL_SIZE=100
+      - PGBOUNCER_ADMIN_USERS=postgres
+      - POSTGRESQL_USERNAME=postgres
+      - POSTGRESQL_PASSWORD=${PG_PASSWORD}
+    depends_on:
+      - postgres-slave
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    networks:
+      - anisa_network
+    restart: on-failure:10
+
+  haproxy:
+    image: haproxy:latest
+    hostname: haproxy
+    container_name: haproxy
+    ports:
+      - "6000:6000"
+      - "6010:6010"
+    volumes:
+      - ./haproxy-crawl.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+    depends_on:
+      - postgres-master
+      - postgres-slave
+      # - postgres-slave2
+      - pgbouncer
+      - pgbouncer-slave
+      # - pgbouncer-slave2
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    networks:
+      - anisa_network
+    restart: on-failure:10
+
+volumes:
+  postgres_master_data:
+  postgres_slave_data:
+  # postgres_slave2_data:
+
+networks:
+  anisa_network:
+    name: anisa_network
+

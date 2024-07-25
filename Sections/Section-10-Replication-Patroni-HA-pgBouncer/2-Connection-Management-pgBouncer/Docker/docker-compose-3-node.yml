@@ -1,0 +1,253 @@
+version: '3'
+
+services:
+  postgres-master-inference:
+    image: anisa/postgresql:${PG_VERSION}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PG_VERSION: ${PG_VERSION}
+    hostname: postgres-master-inference
+    container_name: postgres-master-inference
+    # ports:
+    #   - "5432:5432"
+    volumes:
+      - ./data/postgres/inference_data/data:/bitnami/postgresql/data:z
+      - ./data/postgres/inference_data/conf:/opt/bitnami/postgresql/conf:z
+      - ./data/postgres/inference_data/archive:/archive:z
+      - ./data/postgres/inference_data/backups:/backups:z
+      - ./inference_volume/scripts:/scripts:z
+    environment:
+      - POSTGRESQL_REPLICATION_MODE=master
+      - POSTGRESQL_REPLICATION_USER=repl_user
+      - POSTGRESQL_REPLICATION_PASSWORD=${REPL_PASSWORD}
+      - POSTGRESQL_USERNAME=postgres
+      - POSTGRESQL_PASSWORD=${PG_PASSWORD_MASTER}
+      - POSTGRESQL_DATABASE=${INFERENCE_DB}
+      - POSTGRESQL_SHARED_PRELOAD_LIBRARIES=pg_stat_statements,pg_repack
+      - POSTGRESQL_ARCHIVE_MODE=on
+      - POSTGRESQL_ARCHIVE_COMMAND=cp %p /archive/%f
+      - POSTGRESQL_SHARED_BUFFERS=6GB
+      - POSTGRESQL_WORK_MEM=64MB
+      - POSTGRESQL_MAINTENANCE_WORK_MEM=1GB
+      - POSTGRESQL_EFFECTIVE_CACHE_SIZE=16GB
+      - POSTGRESQL_MAX_CONNECTIONS=200
+      - POSTGRESQL_WAL_BUFFERS=64MB
+    command:
+      - /bin/bash
+      - -c
+      - |
+        /opt/bitnami/scripts/postgresql/entrypoint.sh /opt/bitnami/scripts/postgresql/run.sh &
+        until PGPASSWORD="${PG_PASSWORD_MASTER}" psql -U postgres -d ${INFERENCE_DB} -c '\q'; do
+          >&2 echo "Postgres is unavailable - sleeping"
+          sleep 1
+        done
+        PGPASSWORD="${PG_PASSWORD_MASTER}" psql -U postgres -d ${INFERENCE_DB} -c "CREATE EXTENSION IF NOT EXISTS pg_stat_statements;"
+        PGPASSWORD="${PG_PASSWORD_MASTER}" psql -U postgres -d ${INFERENCE_DB} -c "CREATE EXTENSION IF NOT EXISTS pg_repack;"
+        wait
+    mem_limit: ${MEM_LIMIT}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    networks:
+      - anisa_network
+    restart: on-failure:10
+
+  postgres-slave-inference:
+    image: anisa/postgresql:${PG_VERSION}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PG_VERSION: ${PG_VERSION}
+    hostname: postgres-slave-inference
+    container_name: postgres-slave-inference
+    # ports:
+    #   - "5433:5432"
+    volumes:
+      - ./inference_volume/slave_data:/bitnami/postgresql:z
+    environment:
+      - POSTGRESQL_REPLICATION_MODE=slave
+      - POSTGRESQL_REPLICATION_USER=repl_user
+      - POSTGRESQL_REPLICATION_PASSWORD=${REPL_PASSWORD}
+      - POSTGRESQL_MASTER_HOST=postgres-master-inference
+      - POSTGRESQL_MASTER_PORT_NUMBER=5432
+      - POSTGRESQL_PASSWORD=${PG_PASSWORD_MASTER}
+      - POSTGRESQL_SHARED_PRELOAD_LIBRARIES=pg_stat_statements, pg_repack
+      - POSTGRESQL_SHARED_BUFFERS=6GB
+      - POSTGRESQL_WORK_MEM=64MB
+      - POSTGRESQL_MAINTENANCE_WORK_MEM=1GB
+      - POSTGRESQL_EFFECTIVE_CACHE_SIZE=16GB
+      - POSTGRESQL_MAX_CONNECTIONS=200
+      - POSTGRESQL_WAL_BUFFERS=64MB
+    depends_on:
+      - postgres-master-inference
+    mem_limit: ${MEM_LIMIT}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    networks:
+      - anisa_network
+    restart: on-failure:10
+
+  postgres-slave2-inference:
+    image: anisa/postgresql:${PG_VERSION}
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PG_VERSION: ${PG_VERSION}
+    hostname: postgres-slave2-inference
+    container_name: postgres-slave2-inference
+    # ports:
+    #   - "5434:5432"
+    volumes:
+      - ./inference_volume/slave_data2:/bitnami/postgresql:z
+    environment:
+      - POSTGRESQL_REPLICATION_MODE=slave
+      - POSTGRESQL_REPLICATION_USER=repl_user
+      - POSTGRESQL_REPLICATION_PASSWORD=${REPL_PASSWORD}
+      - POSTGRESQL_MASTER_HOST=postgres-master-inference
+      - POSTGRESQL_MASTER_PORT_NUMBER=5432
+      - POSTGRESQL_PASSWORD=${PG_PASSWORD_MASTER}
+      - POSTGRESQL_SHARED_BUFFERS=6GB
+      - POSTGRESQL_WORK_MEM=64MB
+      - POSTGRESQL_MAINTENANCE_WORK_MEM=1GB
+      - POSTGRESQL_EFFECTIVE_CACHE_SIZE=16GB
+      - POSTGRESQL_MAX_CONNECTIONS=200
+      - POSTGRESQL_WAL_BUFFERS=64MB
+      - POSTGRESQL_SHARED_PRELOAD_LIBRARIES=pg_stat_statements,pg_repack
+    depends_on:
+      - postgres-master-inference
+    mem_limit: ${MEM_LIMIT}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    networks:
+      - anisa_network
+    restart: on-failure:10
+
+  pgbouncer-inference:
+    image: bitnami/pgbouncer:${PG_BOUNCER}
+    hostname: pgbouncer-inference
+    container_name: pgbouncer-inference
+    # ports:
+    #   - "6432:6432"
+    environment:
+      - POSTGRESQL_HOST=postgres-master-inference
+      - POSTGRESQL_PORT=5432
+      - PGBOUNCER_DATABASE=${INFERENCE_DB}
+      - PGBOUNCER_POOL_MODE=transaction
+      - PGBOUNCER_MAX_CLIENT_CONN=1000
+      - PGBOUNCER_DEFAULT_POOL_SIZE=100
+      - PGBOUNCER_ADMIN_USERS=postgres
+      - POSTGRESQL_USERNAME=postgres
+      - PGBOUNCER_PORT=6432
+      - POSTGRESQL_PASSWORD=${PG_PASSWORD_MASTER}
+    depends_on:
+      - postgres-master-inference
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    networks:
+      - anisa_network
+    restart: on-failure:10
+
+  pgbouncer-slave-inference:
+    image: bitnami/pgbouncer:${PG_BOUNCER}
+    hostname: pgbouncer-slave-inference
+    container_name: pgbouncer-slave-inference
+    # ports:
+    #   - "6433:6432"
+    environment:
+      - POSTGRESQL_HOST=postgres-slave-inference
+      - POSTGRESQL_PORT=5432
+      - PGBOUNCER_PORT=6432
+      - PGBOUNCER_DATABASE=${INFERENCE_DB}
+      - PGBOUNCER_POOL_MODE=transaction
+      - PGBOUNCER_MAX_CLIENT_CONN=2000
+      - PGBOUNCER_DEFAULT_POOL_SIZE=200
+      - PGBOUNCER_ADMIN_USERS=postgres
+      - POSTGRESQL_USERNAME=postgres
+      - POSTGRESQL_PASSWORD=${PG_PASSWORD_MASTER}
+    depends_on:
+      - postgres-slave-inference
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    networks:
+      - anisa_network
+    restart: on-failure:10
+
+  pgbouncer-slave2-inference:
+    image: bitnami/pgbouncer:${PG_BOUNCER}
+    hostname: pgbouncer-slave2-inference
+    container_name: pgbouncer-slave2-inference
+    # ports:
+    #   - "6434:6432"
+    environment:
+      - POSTGRESQL_HOST=postgres-slave2-inference
+      - POSTGRESQL_PORT=5432
+      - PGBOUNCER_DATABASE=${INFERENCE_DB}
+      - PGBOUNCER_POOL_MODE=transaction
+      - PGBOUNCER_PORT=6432
+      - PGBOUNCER_MAX_CLIENT_CONN=2000
+      - PGBOUNCER_DEFAULT_POOL_SIZE=200
+      - PGBOUNCER_ADMIN_USERS=postgres
+      - POSTGRESQL_USERNAME=postgres
+      - POSTGRESQL_PASSWORD=${PG_PASSWORD_MASTER}
+    depends_on:
+      - postgres-slave2-inference
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    networks:
+      - anisa_network
+    restart: on-failure:10
+
+  haproxy-inference:
+    image: haproxy:latest
+    hostname: haproxy-inference
+    container_name: haproxy-inference
+    ports:
+      - "5000:5000"
+      - "5010:5010"
+    volumes:
+      - ./haproxy-anisa.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+    depends_on:
+      - postgres-master-inference
+      - postgres-slave-inference
+      - postgres-slave2-inference
+      - pgbouncer-inference
+      - pgbouncer-slave-inference
+      - pgbouncer-slave2-inference
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    networks:
+      - anisa_network
+    restart: on-failure:10
+
+# volumes:
+#   postgres_slave_data_inference:
+#   postgres_slave2_data_inference:
+
+networks:
+  anisa_network:
+    name: anisa_network_inference
+

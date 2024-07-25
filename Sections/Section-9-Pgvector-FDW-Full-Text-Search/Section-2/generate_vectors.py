@@ -6,7 +6,7 @@ from gpt4all import GPT4All, Embed4All
 # Replace these values with your database connection details
 db_connection_params = {
     'host': 'localhost',
-    'database': 'cbd_store',
+    'database': 'anisa',
     'user': 'postgres',
     'password': 'postgres123',
     'port' : 5434
@@ -22,9 +22,11 @@ try:
 
     # Initialize Embed4All
     embedder = Embed4All()
-
+    cnt =1
     # Update the table with vector embeddings
     for product_id, seo_desc in products:
+        print(f"Generating Vector #{cnt:>4}")
+        cnt+=1
         pgvector_desc = embedder.embed(seo_desc)
 
         # Update the pgvector_desc column in the products table

@@ -131,7 +131,7 @@ We can utilize the JSON operators in the WHERE clause to filter out the returnin
 ```
 SELECT info ->> 'customer' AS customer
 FROM orders
-WHERE info -> 'items' ->> 'product' = Chocolate;
+WHERE info -> 'items' ->> 'product' = 'Chocolate';
 ```
 
 To filter out the results for the records where the quantity bought is precisely 10.

@@ -7,7 +7,7 @@ consumer = KafkaConsumer(
      bootstrap_servers=['localhost:9092'],
      auto_offset_reset='earliest',
      enable_auto_commit=True,
-     group_id='my-group2',
+     group_id='my-group20',
      value_deserializer=lambda x: json.loads(x.decode('utf-8'))
      # key_deserializer=str.decode
 )

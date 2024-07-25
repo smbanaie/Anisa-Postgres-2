@@ -1,0 +1,66 @@
+version: '3.4'
+services:
+  postgres_primary:
+    container_name: postgres_primary
+    hostname: postgres_primary
+    image: postgres:${PG_VERSION:-16}
+    volumes:
+      - ./db_data_primary:/var/lib/postgresql/data
+      # - ./postgres-init_primary:/docker-entrypoint-initdb.d  # Mounting the init script
+      - ./backup_primary:/backup
+      - ./archive_primary:/archive
+      # - ./tblspace:/tblspace
+    environment:
+      - POSTGRES_PASSWORD=${DB_PASS:-postgres123}
+      - POSTGRES_USER=${DB_USER:-postgres}
+      - POSTGRES_DB=${DB_NAME:-dblab}
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    networks:
+      - services
+    restart: on-failure:10
+    ports:
+      - 5434:5432
+# volumes:
+#   metadata_data: {}
+
+  postgres_replica1:
+    container_name: postgres_replica1
+    hostname: postgres_replica1
+    image: postgres:${PG_VERSION:-16}
+    volumes:
+      - ./db_data_replica1:/var/lib/postgresql/data
+      # - ./postgres-init_primary:/docker-entrypoint-initdb.d  # Mounting the init script
+      - ./backup_replica1:/backup
+      - ./archive_replica1:/archive
+      # - ./tblspace:/tblspace
+    environment:
+      - POSTGRES_PASSWORD=${DB_PASS:-postgres123}
+      - POSTGRES_USER=${DB_USER:-postgres}
+      - POSTGRES_DB=${DB_NAME:-dblab}
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    networks:
+      - services
+    restart: on-failure:10
+    ports:
+      - 5436:5432
+
+  pgadmin:
+    # https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html
+    container_name: pgadmin4
+    hostname: pgadmin4
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: pgadmin123
+    volumes:
+      #- ./pgadmin_data:/data
+      - ./ pgadmin-data:/var/lib/pgadmin
+    ports:
+      - "5050:80"
+    networks:
+      - services 
+  
+networks: 
+  services:
+    name: ${APP_NAME:-anisa}_network
