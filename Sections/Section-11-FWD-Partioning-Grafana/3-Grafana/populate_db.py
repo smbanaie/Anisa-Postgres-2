@@ -157,7 +157,7 @@ def simulate_online_shop():
             conn.commit()
 
             # Pause for 1 second before the next iteration
-            time.sleep(0.0001)
+            time.sleep(0.01)
 
     except psycopg2.Error as e:
         print(f"Error: {e}")

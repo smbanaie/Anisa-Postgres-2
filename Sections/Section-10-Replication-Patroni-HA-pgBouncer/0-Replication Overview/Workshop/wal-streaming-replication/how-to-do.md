@@ -12,7 +12,8 @@ CREATE USER replication_user REPLICATION LOGIN CONNECTION LIMIT 5 ENCRYPTED PASS
 Ensure that `pg_hba.conf` on both the primary and replica allows the replication user to connect. Add the following line:
 
 ```
-host    replication_user    replication_user_ip/32    md5
+host    replication replication_user    replication_user_ip/32    md5 
+host    replication replication_user    172.18.0.3/32    md5  # primary
 ```
 
 ### 2. Primary Server Configuration

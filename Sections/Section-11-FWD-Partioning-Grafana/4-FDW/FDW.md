@@ -15,7 +15,8 @@ Let’s go!
 For this example, we’ll use the databases `localdb` and `foreigndb`. I want to access a table `account_metrics` in `foreigndb` from `localdb`:
 
 ```
-postgres=# \lList of databasesName    |  Owner   | Encoding | Collate | Ctype |   Access privileges-----------+----------+----------+---------+-------+-----------------------localdb | postgres | UTF8     | C       | C     |foreigndb | postgres | UTF8     | C       | C     |(2 rows)
+postgres=# \l    
+Name    |  Owner   | Encoding | Collate | Ctype |   Access privileges-----------+----------+----------+---------+-------+-----------------------localdb | postgres | UTF8     | C       | C     |foreigndb | postgres | UTF8     | C       | C     |(2 rows)
 ```
 
 And a look at the `account_metrics` table:
@@ -41,7 +42,9 @@ When our foreign data wrapper is set up, we’ll need the foreign server to prom
 First, find where your `pg_hba.conf` is located. The most common installations for `postgreSQL` are `homebrew` and EnterpriseDB. However, the easiest way to find your data directory (where `pg_hba.conf` is located) is to query it directly in a `psql` instance:
 
 ```
-foreigndb=# SHOW hba_file;hba_file-----------------------------------------/Library/PostgreSQL/11/data/pg_hba.conf(1 row)foreigndb=# SHOW data_directory;data_directory-----------------------------/Library/PostgreSQL/11/data(1 row)
+foreigndb=# SHOW hba_file;
+hba_file-----------------------------------------/Library/PostgreSQL/11/data/pg_hba.conf(1 row)foreigndb=# SHOW data_directory;
+data_directory-----------------------------/Library/PostgreSQL/11/data(1 row)
 ```
 
 Depending on your OS, you may need to log in as root to access `/Library/PostgreSQL/11/data` by logging in as `sudo su -` . Brew installations won’t require you to log in as the superuser.
@@ -63,13 +66,15 @@ user$ sudo -u postgres pg_ctl reload -D /Library/PostgreSQL/11/data/server signa
 Now connect to `localdb` and create the foreign data wrapper extension by running `CREATE EXTENSION postgres_fdw;` or `CREATE EXTENSION IF NOT EXISTS postgres_fdw;`
 
 ```
-localdb=# CREATE EXTENSION IF NOT EXISTS postgres_fdw;CREATE EXTENSION
+localdb=# CREATE EXTENSION IF NOT EXISTS postgres_fdw;
+CREATE EXTENSION
 ```
 
 Check that worked by querying the database’s extensions:
 
 ```
-localdb=# select * from pg_extension;extname    | extowner | extnamespace | extrelocatable | extversion | extconfig | extcondition--------------+----------+--------------+----------------+------------+-----------+--------------plpgsql      |       10 |           11 | f              | 1.0        |           |postgres_fdw |       10 |         2200 | t              | 1.0        |           |(2 rows)
+localdb=# select * from pg_extension;
+extname    | extowner | extnamespace | extrelocatable | extversion | extconfig | extcondition--------------+----------+--------------+----------------+------------+-----------+--------------plpgsql      |       10 |           11 | f              | 1.0        |           |postgres_fdw |       10 |         2200 | t              | 1.0        |           |(2 rows)
 ```
 
 # **Step 3: Create the Foreign Server**
@@ -77,7 +82,8 @@ localdb=# select * from pg_extension;extname    | extowner | extnamespace | extr
 Now we’re going to create the foreign server that we’ll import the foreign schema into. You can name this whatever you want. In this example I’ll name this one`foreigndb_fdw` . We’ll create the server with `OPTIONS` for our host, port, and the name of the foreign database as follows:
 
 ```
-localdb=# CREATE SERVER foreigndb_fdw FOREIGN DATA WRAPPER postgres_fdw OPTIONS (host '127.0.0.1', port '5432', dbname 'foreigndb');CREATE SERVER
+localdb=# CREATE SERVER foreigndb_fdw FOREIGN DATA WRAPPER postgres_fdw OPTIONS (host '127.0.0.1', port '5432', dbname 'foreigndb');
+CREATE SERVER
 ```
 
 Let’s check and make sure that worked:
@@ -85,7 +91,9 @@ Let’s check and make sure that worked:
 If you’re using `psql` you can use `\des` in the working database to list your foreign servers. You can also query it from `pg_foreign_server` :
 
 ```
-localdb=# \desList of foreign serversName      |  Owner   | Foreign-data wrapper---------------+----------+----------------------foreigndb_fdw | postgres | postgres_fdw(1 row)localdb=# select * from pg_foreign_server;srvname    | srvowner | srvfdw | srvtype | srvversion | srvacl |                 srvoptions---------------+----------+--------+---------+------------+--------+---------------------------------------------foreigndb_fdw |       10 |  41198 |         |            |        | {host=127.0.0.1,port=5432,dbname=foreigndb}(1 row)
+localdb=# \de
+sList of foreign servers
+Name      |  Owner   | Foreign-data wrapper---------------+----------+----------------------foreigndb_fdw | postgres | postgres_fdw(1 row)localdb=# select * from pg_foreign_server;srvname    | srvowner | srvfdw | srvtype | srvversion | srvacl |                 srvoptions---------------+----------+--------+---------+------------+--------+---------------------------------------------foreigndb_fdw |       10 |  41198 |         |            |        | {host=127.0.0.1,port=5432,dbname=foreigndb}(1 row)
 ```
 
 # Step 4: Create User Mapping
@@ -93,13 +101,15 @@ localdb=# \desList of foreign serversName      |  Owner   | Foreign-data wrapper
 Now we’re going to create the user mapping. Let’s say that all of the objects and tables in `localdb` are owned by `localuser` . We’re going to create the user mapping for the foreign schema for this user as well. I don’t recommend setting up user mapping for the `postgres` superuser.
 
 ```
-localdb=# CREATE USER MAPPING FOR localuser SERVER foreigndb_fdw OPTIONS (user 'fdwuser', password 'secret');CREATE USER MAPPING
+localdb=# CREATE USER MAPPING FOR localuser SERVER foreigndb_fdw OPTIONS (user 'fdwuser', password 'secret');
+CREATE USER MAPPING
 ```
 
 Now, let’s check and make sure that worked by querying `pg_user_mapping` (restricted for users that are not the superuser) or `pg_user_mappings` which is not restricted:
 
 ```
-localdb=# select * from pg_user_mapping;umuser | umserver |           umoptions--------+----------+--------------------------------41201 |    41199 | {user=fdwuser,password=secret}(1 row)localdb=# select * from pg_user_mappings;umid  | srvid |    srvname    | umuser |  usename  |           umoptions-------+-------+---------------+--------+-----------+--------------------------------41202 | 41199 | foreigndb_fdw |  41201 | localuser | {user=fdwuser,password=secret}(1 row)
+localdb=# select * from pg_user_mapping;
+umuser | umserver |           umoptions--------+----------+--------------------------------41201 |    41199 | {user=fdwuser,password=secret}(1 row)localdb=# select * from pg_user_mappings;umid  | srvid |    srvname    | umuser |  usename  |           umoptions-------+-------+---------------+--------+-----------+--------------------------------41202 | 41199 | foreigndb_fdw |  41201 | localuser | {user=fdwuser,password=secret}(1 row)
 ```
 
 **An important note about the fdwuser and its password**
@@ -136,7 +146,8 @@ Type "help" for help.localdb=> IMPORT FOREIGN SCHEMA public LIMIT TO (account_me
 The `localuser` now has read-only access to the `account_metrics` table located in `foreigndb` :
 
 ```
-localdb=> select * from account_metrics;id | time_spent | pages_viewed----+------------+--------------1 |         60 |            52 |        100 |            23 |         15 |            5(3 rows)
+localdb=> select * from account_metrics;
+id | time_spent | pages_viewed----+------------+--------------1 |         60 |            52 |        100 |            23 |         15 |            5(3 rows)
 ```
 
 What about other access? Test that you’re read-only by trying to insert a row into the foreign table:

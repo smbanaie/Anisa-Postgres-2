@@ -1,0 +1,58 @@
+version: "3.9"
+services:
+  grafana:
+    image: grafana/grafana
+    ports:
+      - 3000:3000
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    networks:
+      - services
+
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus-storage:/prometheus
+    networks:
+      - services
+
+  postgres:
+    container_name: postgres
+    hostname: postgres
+    image: postgres:${PG_VERSION:-16}
+    volumes:
+      - ./db_data:/var/lib/postgresql/data
+      - ./shopping_ddl.sql:/docker-entrypoint-initdb.d/shopping_ddl.sql
+    environment:
+      - POSTGRES_PASSWORD=${DB_PASS:-postgres123}
+      - POSTGRES_USER=${DB_USER:-postgres}
+      - POSTGRES_DB=${DB_NAME:-shopping}
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    networks:
+      - services
+    restart: on-failure:10
+    ports:
+      - 5434:5432
+
+  postgres-exporter:
+    image: prometheuscommunity/postgres-exporter
+    ports:
+      - 9187:9187
+    environment:
+      DATA_SOURCE_NAME: "postgresql://${DB_USER:-postgres}:${DB_PASS:-postgres123}@postgres:5432/${DB_NAME:-shopping}?sslmode=disable"
+    depends_on:
+      - postgres
+      - prometheus
+    networks:
+      - services
+
+networks:
+  services:
+    name: ${APP_NAME:-anisa}_network
+
+volumes:
+  grafana-storage:
+  prometheus-storage:

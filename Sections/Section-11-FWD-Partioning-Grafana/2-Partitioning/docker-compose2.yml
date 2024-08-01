@@ -1,0 +1,68 @@
+version: '3.4'
+services:
+  postgres:
+    container_name: postgres
+    hostname: postgres
+    image: postgres:${PG_VERSION:-16}
+    volumes:
+      - ./db_data:/var/lib/postgresql/data
+      # - ./postgres-init_primary:/docker-entrypoint-initdb.d  # Mounting the init script
+      # - ./backup:/backup
+      # - ./archive:/archive
+      # - ./tblspace:/tblspace
+    environment:
+      - POSTGRES_PASSWORD=${DB_PASS:-postgres123}
+      - POSTGRES_USER=${DB_USER:-postgres}
+      - POSTGRES_DB=${DB_NAME:-dblab}
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    networks:
+      - services
+    restart: on-failure:10
+    ports:
+      - 5434:5432
+
+
+  postgres2:
+    container_name: postgres2
+    hostname: postgres2
+    image: postgres:${PG_VERSION:-16}
+    volumes:
+      - ./db_data2:/var/lib/postgresql/data
+      # - ./postgres-init_primary:/docker-entrypoint-initdb.d  # Mounting the init script
+      # - ./backup:/backup
+      # - ./archive:/archive
+      # - ./tblspace:/tblspace
+    environment:
+      - POSTGRES_PASSWORD=${DB_PASS:-postgres123}
+      - POSTGRES_USER=${DB_USER:-postgres}
+      - POSTGRES_DB=${DB_NAME:-dblab}
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    networks:
+      - services
+    restart: on-failure:10
+    ports:
+      - 5436:5432 
+  
+  postgres3:
+    container_name: postgres3
+    hostname: postgres3
+    image: postgres:${PG_VERSION:-16}
+    volumes:
+      - ./db_data3:/var/lib/postgresql/data
+      # - ./postgres-init_primary:/docker-entrypoint-initdb.d  # Mounting the init script
+      # - ./backup:/backup
+      # - ./archive:/archive
+      # - ./tblspace:/tblspace
+    environment:
+      - POSTGRES_PASSWORD=${DB_PASS:-postgres123}
+      - POSTGRES_USER=${DB_USER:-postgres}
+      - POSTGRES_DB=${DB_NAME:-dblab}
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    networks:
+      - services
+    restart: on-failure:10
+    ports:
+      - 5438:5432     
+networks: 
+  services:
+    name: ${APP_NAME:-anisa}_network
