@@ -9,7 +9,7 @@ db_connection_params = {
     'database': 'shopping',
     'user': 'postgres',
     'password': 'postgres123',
-    'port': 5434
+    'port': 5440
 }
 
 fake = Faker()

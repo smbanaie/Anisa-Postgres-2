@@ -20,29 +20,29 @@ services:
       - services
 
   postgres:
-    container_name: postgres
-    hostname: postgres
+    container_name: postgres_grafana
+    hostname: postgres_grafana
     image: postgres:${PG_VERSION:-16}
     volumes:
-      - ./db_data:/var/lib/postgresql/data
+      - ./db_data_grafana:/var/lib/postgresql/data
       - ./shopping_ddl.sql:/docker-entrypoint-initdb.d/shopping_ddl.sql
     environment:
       - POSTGRES_PASSWORD=${DB_PASS:-postgres123}
       - POSTGRES_USER=${DB_USER:-postgres}
-      - POSTGRES_DB=${DB_NAME:-shopping}
+      - POSTGRES_DB=shopping
       - POSTGRES_HOST_AUTH_METHOD=trust
     networks:
       - services
     restart: on-failure:10
     ports:
-      - 5434:5432
+      - 5440:5432
 
   postgres-exporter:
     image: prometheuscommunity/postgres-exporter
     ports:
       - 9187:9187
     environment:
-      DATA_SOURCE_NAME: "postgresql://${DB_USER:-postgres}:${DB_PASS:-postgres123}@postgres:5432/${DB_NAME:-shopping}?sslmode=disable"
+      DATA_SOURCE_NAME: "postgresql://postgres:postgres123@postgres_grafana:5432/shopping?sslmode=disable"
     depends_on:
       - postgres
       - prometheus

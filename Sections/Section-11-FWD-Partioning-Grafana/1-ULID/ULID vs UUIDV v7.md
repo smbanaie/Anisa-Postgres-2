@@ -201,7 +201,7 @@ SELECT count(*) FROM {TABLE_NAME}
 
 - It is clear the UUID V4 is much slower than the other UUID variants. It performed better than expected in inserts. If inserts are sustained over longer periods its performance drops off. It is also noted that seeding a 100 million rows with a UUID V4 primary key takes at least 6 times as long as the other variants due to the keys being unordered and B-Tree lookups taking much longer.
 - Binary encoded UUID V7 performs will. But since it is unordered it suffers in insert performance as searching the index will be less efficient as the time ordered varieties.
-- UUID V7 Base 32 and ULID variants appear to be the best compromise.
+- **UUID V7 Base 32 and ULID variants appear to be the best compromise.**
 
 # Conclusion
 
