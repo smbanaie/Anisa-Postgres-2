@@ -27,6 +27,11 @@ $$ LANGUAGE plpgsql;
 
 
 
+select  *
+from users u 
+where (email , user_type)  in (select email, user_type from get_user_samples())
+
+
 CREATE OR REPLACE FUNCTION get_user_limit(limit_count INTEGER)
 RETURNS TABLE (email VARCHAR, user_type user_role) AS $$
 BEGIN
